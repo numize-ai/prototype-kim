@@ -4,6 +4,8 @@
 
 import React, { useState } from "react";
 
+import { Badge } from "~/components/ui/badge";
+import { Card } from "~/components/ui/card";
 import type { ChatMessage as ChatMessageType } from "~mocks/chat-data";
 
 import { ChatActions } from "./ChatActions";
@@ -12,8 +14,6 @@ import { ChatTable } from "./ChatTable";
 import { ExportToSheetsDialog } from "./ExportToSheetsDialog";
 import { ReasoningPanel } from "./ReasoningPanel";
 
-import { Badge } from "~/components/ui/badge";
-import { Card } from "~/components/ui/card";
 import { motion } from "framer-motion";
 import { Bot, Database, User } from "lucide-react";
 import Image from "next/image";

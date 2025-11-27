@@ -1,8 +1,7 @@
 import { fireEvent, render, screen } from "~__test__/test-utils";
+import type { BlockConfig } from "~mocks/digest-data";
 
 import { BlockEditDialog } from "./BlockEditDialog";
-
-import type { BlockConfig } from "~mocks/digest-data";
 
 // Mock the Dialog components to avoid lucide-react import issues in tests
 jest.mock("~/components/ui/dialog", () => ({
@@ -53,7 +52,7 @@ describe("BlockEditDialog", () => {
         blockType="kpi"
         blockConfig={defaultKPIConfig}
         onSave={mockOnSave}
-      />
+      />,
     );
 
     expect(screen.getByRole("dialog")).toBeInTheDocument();
@@ -68,7 +67,7 @@ describe("BlockEditDialog", () => {
         blockType="kpi"
         blockConfig={defaultKPIConfig}
         onSave={mockOnSave}
-      />
+      />,
     );
 
     expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
@@ -82,7 +81,7 @@ describe("BlockEditDialog", () => {
         blockType="kpi"
         blockConfig={defaultKPIConfig}
         onSave={mockOnSave}
-      />
+      />,
     );
 
     // Check for config panel content
@@ -98,7 +97,7 @@ describe("BlockEditDialog", () => {
         blockType="kpi"
         blockConfig={defaultKPIConfig}
         onSave={mockOnSave}
-      />
+      />,
     );
 
     const saveButton = screen.getByRole("button", { name: /save/i });
@@ -116,7 +115,7 @@ describe("BlockEditDialog", () => {
         blockType="kpi"
         blockConfig={defaultKPIConfig}
         onSave={mockOnSave}
-      />
+      />,
     );
 
     const cancelButton = screen.getByRole("button", { name: /cancel/i });
@@ -134,7 +133,7 @@ describe("BlockEditDialog", () => {
         blockType="kpi"
         blockConfig={defaultKPIConfig}
         onSave={mockOnSave}
-      />
+      />,
     );
 
     expect(screen.getByText("Edit KPI Block")).toBeInTheDocument();
@@ -157,7 +156,7 @@ describe("BlockEditDialog", () => {
         blockType="chart"
         blockConfig={chartConfig}
         onSave={mockOnSave}
-      />
+      />,
     );
 
     expect(screen.getByText("Edit Chart Block")).toBeInTheDocument();
@@ -171,7 +170,7 @@ describe("BlockEditDialog", () => {
         blockType="kpi"
         blockConfig={defaultKPIConfig}
         onSave={mockOnSave}
-      />
+      />,
     );
 
     // Interact with the config panel to change a value

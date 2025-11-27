@@ -2,12 +2,12 @@
 
 import React from "react";
 
-import type { DataConnector } from "~mocks/connectors";
-
 import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "~/components/ui/card";
 import { Tooltip, TooltipContent, TooltipTrigger } from "~/components/ui/tooltip";
+import type { DataConnector } from "~mocks/connectors";
+
 import { AlertCircle, CheckCircle2, ChevronRight, Loader2, RefreshCw } from "lucide-react";
 import Image from "next/image";
 

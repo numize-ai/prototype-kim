@@ -8,6 +8,8 @@
 
 import React, { useEffect, useRef, useState } from "react";
 
+import { Button } from "~/components/ui/button";
+import { TooltipProvider } from "~/components/ui/tooltip";
 import type { ChatMessage as ChatMessageType } from "~mocks/chat-data";
 import { MOCK_RESPONSES, SUGGESTED_QUERIES } from "~mocks/chat-data";
 import { generateFallbackResponse } from "~services/chatFallbackResponses";
@@ -24,8 +26,6 @@ import { SQLEditor } from "./components/SQLEditor";
 import { SuggestedQuestions } from "./components/SuggestedQuestions";
 import { TypingIndicator } from "./components/TypingIndicator";
 
-import { Button } from "~/components/ui/button";
-import { TooltipProvider } from "~/components/ui/tooltip";
 import { AnimatePresence, motion } from "framer-motion";
 import { Code, History, MessageSquare, Plus, X } from "lucide-react";
 

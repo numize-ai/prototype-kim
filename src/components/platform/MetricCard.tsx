@@ -2,10 +2,10 @@
 
 import React from "react";
 
-import type { MetricCard as MetricCardType } from "~mocks/saas-metrics";
-
 import { Card, CardContent, CardHeader, CardTitle } from "~/components/ui/card";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "~/components/ui/tooltip";
+import type { MetricCard as MetricCardType } from "~mocks/saas-metrics";
+
 import { Info, Minus, TrendingDown, TrendingUp } from "lucide-react";
 
 interface MiniSparklineProps {

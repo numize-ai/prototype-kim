@@ -1,6 +1,5 @@
-import apiClient from "~utils/axiosApiClient";
-
 import type { ISignInRequest, ISignInResponse } from "~/types/auth";
+import apiClient from "~utils/axiosApiClient";
 
 const signIn = async (credentials: ISignInRequest): Promise<ISignInResponse> => {
   return apiClient.post<ISignInResponse, ISignInRequest>("/users-management/auth/sign-in", credentials, {

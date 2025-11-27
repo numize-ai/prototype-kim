@@ -3,10 +3,9 @@
 import * as React from "react";
 
 import { DbtVerifiedBadge, InferredLogicBadge } from "~/components/badges";
-import type { QueryHistoryItem } from "~/mocks/queryHistory";
-
 import { Button } from "~/components/ui/button";
 import { Card, CardContent } from "~/components/ui/card";
+import type { QueryHistoryItem } from "~/mocks/queryHistory";
 
 interface HistoryListProps {
   history: QueryHistoryItem[];

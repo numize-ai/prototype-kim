@@ -1,5 +1,6 @@
-import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import DataSourcesContent from "./DataSourcesContent";
+
+import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 
 // Mock next/navigation
 const mockPush = jest.fn();
@@ -140,7 +141,7 @@ describe("DataSourcesContent", () => {
         () => {
           expect(testButton).not.toBeDisabled();
         },
-        { timeout: 2000 }
+        { timeout: 2000 },
       );
     });
 
@@ -248,7 +249,9 @@ describe("DataSourcesContent", () => {
       expect(screen.getByText("Configured warehouse connections for AI-powered analytics")).toBeInTheDocument();
       expect(screen.getByText("Linked dbt models for verified metrics and semantic layer")).toBeInTheDocument();
       expect(screen.getByText("Team-based data access slices with defined metrics and dimensions")).toBeInTheDocument();
-      expect(screen.getByText("External integrations the AI agent can use to take business actions")).toBeInTheDocument();
+      expect(
+        screen.getByText("External integrations the AI agent can use to take business actions"),
+      ).toBeInTheDocument();
     });
   });
 

@@ -2,9 +2,9 @@
 
 import React from "react";
 
+import { Button } from "~/components/ui/button";
 import type { ChatAction } from "~mocks/chat-data";
 
-import { Button } from "~/components/ui/button";
 import * as Icons from "lucide-react";
 
 interface ChatActionsProps {

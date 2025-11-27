@@ -6,10 +6,6 @@ import * as React from "react";
 
 import { DataSourcesContent } from "~/components/data-sources";
 import { AppLayout } from "~/components/layouts";
-import { mockGoogleAccount, mockGoogleSheets } from "~/mocks/sheetsData";
-import { useAppSelector } from "~store";
-import { selectConnectedSources } from "~store/slices/connectorsSlice";
-
 import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "~/components/ui/card";
@@ -17,6 +13,10 @@ import { Input } from "~/components/ui/input";
 import { Label } from "~/components/ui/label";
 import { Progress } from "~/components/ui/progress";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "~/components/ui/select";
+import { mockGoogleAccount, mockGoogleSheets } from "~/mocks/sheetsData";
+import { useAppSelector } from "~store";
+import { selectConnectedSources } from "~store/slices/connectorsSlice";
+
 import { formatDistanceToNow } from "date-fns";
 import { RefreshCw } from "lucide-react";
 import Image from "next/image";

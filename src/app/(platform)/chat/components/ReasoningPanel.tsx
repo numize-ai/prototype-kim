@@ -5,11 +5,11 @@
 
 import React, { useState } from "react";
 
-import type { ReasoningStep } from "~mocks/chat-data";
-
 import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "~/components/ui/card";
+import type { ReasoningStep } from "~mocks/chat-data";
+
 import { motion } from "framer-motion";
 import { Check, ChevronDown, ChevronUp, Code2, Loader2 } from "lucide-react";
 

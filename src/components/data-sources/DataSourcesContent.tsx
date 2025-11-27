@@ -5,6 +5,9 @@
 
 import * as React from "react";
 
+import { Badge } from "~/components/ui/badge";
+import { Button } from "~/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "~/components/ui/card";
 import {
   mockDbtProjectInfo,
   mockOnboardingProgress,
@@ -13,9 +16,6 @@ import {
 } from "~/mocks/onboardingData";
 import { mockWarehouseConnections, warehouseTypes } from "~/mocks/warehouseData";
 
-import { Badge } from "~/components/ui/badge";
-import { Button } from "~/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "~/components/ui/card";
 import { formatDistanceToNow } from "date-fns";
 import {
   Briefcase,

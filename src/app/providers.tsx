@@ -7,8 +7,8 @@ import { StoreProvider } from "~store/provider";
 import notistackRef from "~utils/notistackRef";
 import { queryClient } from "~utils/queryClient";
 
+import { QueryClientProvider } from "@tanstack/react-query";
 import { SnackbarProvider } from "notistack";
-import { QueryClientProvider } from "react-query";
 
 export const Providers: React.FC<React.PropsWithChildren> = ({ children }) => {
   return (

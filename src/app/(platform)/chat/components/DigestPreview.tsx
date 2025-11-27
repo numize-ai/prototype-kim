@@ -3,11 +3,11 @@
 
 import React, { useMemo } from "react";
 
+import { Badge } from "~/components/ui/badge";
 import { DigestBlockRenderer } from "~components/digest/DigestBlockRenderer";
 import type { ChatMessage as ChatMessageType } from "~mocks/chat-data";
 import type { Digest } from "~mocks/digest-data";
 
-import { Badge } from "~/components/ui/badge";
 import { Calendar, TrendingUp } from "lucide-react";
 
 interface DigestPreviewProps {

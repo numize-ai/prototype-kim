@@ -7,7 +7,9 @@
 import React, { useState } from "react";
 
 import { Button } from "~/components/ui/button";
-import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+
+import type { EChartsOption } from "echarts";
+import ReactECharts from "echarts-for-react";
 
 interface PlatformComparisonChartProps {
   metaData: {
@@ -78,14 +80,6 @@ export const PlatformComparisonChart: React.FC<PlatformComparisonChartProps> = (
     return found;
   };
 
-  const chartData = [
-    {
-      name: getCurrentMetric().label,
-      Meta: metaData[selectedMetric as keyof typeof metaData],
-      Google: googleData[selectedMetric as keyof typeof googleData],
-    },
-  ];
-
   const formatValue = (value: number, format: string): string => {
     switch (format) {
       case "currency":
@@ -104,37 +98,9 @@ export const PlatformComparisonChart: React.FC<PlatformComparisonChartProps> = (
     }
   };
 
-  const CustomTooltip = ({
-    active,
-    payload,
-  }: {
-    active: boolean;
-    payload: Array<{ name: string; value: number; color: string }> | undefined;
-  }): React.ReactElement | null => {
-    if (!active || payload === undefined) return null;
-
-    const metricConfig = getCurrentMetric();
-
-    return (
-      <div className="bg-white border border-slate-200 rounded-lg shadow-lg p-3">
-        <p className="text-sm font-semibold text-slate-900 mb-2">{metricConfig.label} Comparison</p>
-        {payload.map((entry, index: number) => (
-          <div key={index} className="flex items-center justify-between gap-4 mb-1">
-            <span className="text-sm" style={{ color: entry.color }}>
-              {entry.name}:
-            </span>
-            <span className="text-sm font-semibold text-slate-900">
-              {formatValue(entry.value, metricConfig.format)}
-            </span>
-          </div>
-        ))}
-      </div>
-    );
-  };
-
   const getYAxisLabel = (): string => {
-    const metricConfig = getCurrentMetric();
-    switch (metricConfig.format) {
+    const currentMetricConfig = getCurrentMetric();
+    switch (currentMetricConfig.format) {
       case "currency":
         return "Amount (€)";
       case "ratio":
@@ -144,6 +110,122 @@ export const PlatformComparisonChart: React.FC<PlatformComparisonChartProps> = (
       default:
         return "Value";
     }
+  };
+
+  const metricConfig = getCurrentMetric();
+  const option: EChartsOption = {
+    tooltip: {
+      trigger: "axis",
+      backgroundColor: "#fff",
+      borderColor: "#e2e8f0",
+      borderWidth: 1,
+      borderRadius: 8,
+      padding: 12,
+      textStyle: { color: "#111827" },
+      axisPointer: {
+        type: "shadow",
+        shadowStyle: {
+          color: "rgba(226, 232, 240, 0.3)",
+        },
+      },
+      formatter: (params) => {
+        if (!Array.isArray(params)) return "";
+        let result = `<div style="font-size: 12px; font-weight: 600; margin-bottom: 8px;">${metricConfig.label} Comparison</div>`;
+        params.forEach((param) => {
+          const value = typeof param.value === "number" ? formatValue(param.value, metricConfig.format) : param.value;
+          const colorValue = typeof param.color === "string" ? param.color : "#3b82f6";
+          result += `<div style="display: flex; align-items: center; justify-between; gap: 16px; margin-bottom: 4px;">
+            <span style="font-size: 12px; color: ${colorValue};">${param.seriesName}:</span>
+            <span style="font-size: 12px; font-weight: 600; color: #0f172a;">${value}</span>
+          </div>`;
+        });
+        return result;
+      },
+    },
+    legend: {
+      bottom: 0,
+      left: "center",
+      itemGap: 20,
+      textStyle: {
+        color: "#475569",
+        fontSize: 12,
+      },
+      icon: "circle",
+    },
+    grid: {
+      left: 60,
+      right: 30,
+      bottom: 60,
+      top: 20,
+      containLabel: true,
+    },
+    xAxis: {
+      type: "category",
+      data: [metricConfig.label],
+      axisLabel: {
+        color: "#64748b",
+        fontSize: 12,
+      },
+      axisLine: {
+        lineStyle: {
+          color: "#cbd5e1",
+        },
+      },
+    },
+    yAxis: {
+      type: "value",
+      name: getYAxisLabel(),
+      nameTextStyle: {
+        color: "#64748b",
+        fontSize: 12,
+      },
+      nameLocation: "middle",
+      nameGap: 50,
+      axisLabel: {
+        color: "#64748b",
+        fontSize: 12,
+        formatter: (value: number) => {
+          if (metricConfig.format === "currency") {
+            return `€${(value / 1000).toFixed(0)}K`;
+          }
+          if (metricConfig.format === "ratio") {
+            return `${value.toFixed(1)}x`;
+          }
+          return value.toLocaleString();
+        },
+      },
+      axisLine: {
+        lineStyle: {
+          color: "#cbd5e1",
+        },
+      },
+      splitLine: {
+        lineStyle: {
+          color: "#e2e8f0",
+          type: "dashed",
+        },
+      },
+    },
+    series: [
+      {
+        name: "Meta",
+        type: "bar",
+        data: [metaData[selectedMetric as keyof typeof metaData]],
+        itemStyle: {
+          color: "#3b82f6",
+          borderRadius: [8, 8, 0, 0],
+        },
+      },
+      {
+        name: "Google",
+        type: "bar",
+        data: [googleData[selectedMetric as keyof typeof googleData]],
+        itemStyle: {
+          color: "#ef4444",
+          borderRadius: [8, 8, 0, 0],
+        },
+      },
+    ],
   };
 
   return (
@@ -167,43 +249,7 @@ export const PlatformComparisonChart: React.FC<PlatformComparisonChartProps> = (
       </div>
 
       {/* Chart */}
-      <ResponsiveContainer width="100%" height={300}>
-        <BarChart data={chartData} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
-          <XAxis dataKey="name" tick={{ fill: "#64748b", fontSize: 12 }} axisLine={{ stroke: "#cbd5e1" }} />
-          <YAxis
-            label={{
-              value: getYAxisLabel(),
-              angle: -90,
-              position: "insideLeft",
-              style: { fill: "#64748b", fontSize: 12 },
-            }}
-            tick={{ fill: "#64748b", fontSize: 12 }}
-            axisLine={{ stroke: "#cbd5e1" }}
-            tickFormatter={(value) => {
-              const metricConfig = getCurrentMetric();
-              if (metricConfig.format === "currency") {
-                return `€${(value / 1000).toFixed(0)}K`;
-              }
-              if (metricConfig.format === "ratio") {
-                return `${value.toFixed(1)}x`;
-              }
-              return value.toLocaleString();
-            }}
-          />
-          <Tooltip
-            content={<CustomTooltip active={false} payload={undefined} />}
-            cursor={{ fill: "rgba(226, 232, 240, 0.3)" }}
-          />
-          <Legend
-            wrapperStyle={{ paddingTop: "20px" }}
-            iconType="circle"
-            formatter={(value) => <span className="text-sm text-slate-700">{value}</span>}
-          />
-          <Bar dataKey="Meta" fill="#3b82f6" radius={[8, 8, 0, 0]} />
-          <Bar dataKey="Google" fill="#ef4444" radius={[8, 8, 0, 0]} />
-        </BarChart>
-      </ResponsiveContainer>
+      <ReactECharts option={option} style={{ height: "300px", width: "100%" }} />
 
       {/* Platform legend with totals */}
       <div className="mt-4 grid grid-cols-2 gap-4">

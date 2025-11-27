@@ -1,9 +1,8 @@
 "use client";
 
+import { Button } from "~/components/ui/button";
 import { Language } from "~i18n/types";
 import { useLanguage } from "~i18n/useLanguage";
-
-import { Button } from "~/components/ui/button";
 
 export const LanguageSwitcher: React.FC = () => {
   const [language, setLanguage] = useLanguage();

@@ -3,11 +3,10 @@
 import * as React from "react";
 
 import { AppLayout } from "~/components/layouts";
+import { Button } from "~/components/ui/button";
 import { type SortOption, useQueryHistory } from "~/hooks/useQueryHistory";
 
 import { HistoryList } from "./components/HistoryList";
-
-import { Button } from "~/components/ui/button";
 
 const HistoryPage: React.FC = () => {
   const { history, sortBy, setFilters, setSortBy, deleteQuery, clearFilters } = useQueryHistory();

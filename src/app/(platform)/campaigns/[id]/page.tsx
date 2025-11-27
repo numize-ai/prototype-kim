@@ -1,10 +1,11 @@
 import React from "react";
 
+import { Card, CardContent } from "~/components/ui/card";
+
 import { getCampaignDetails } from "../helpers";
 
 import { CampaignDetailsClient } from "./CampaignDetailsClient";
 
-import { Card, CardContent } from "~/components/ui/card";
 import { AlertCircle } from "lucide-react";
 import Link from "next/link";
 

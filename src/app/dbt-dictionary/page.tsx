@@ -5,6 +5,9 @@
 import * as React from "react";
 
 import { AppLayout } from "~/components/layouts";
+import { Badge } from "~/components/ui/badge";
+import { Button } from "~/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "~/components/ui/card";
 import {
   type DbtEntity,
   type DbtMetric,
@@ -15,10 +18,6 @@ import {
   mockDbtModels,
   searchMetrics,
 } from "~/mocks/dbtSemanticData";
-
-import { Badge } from "~/components/ui/badge";
-import { Button } from "~/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "~/components/ui/card";
 
 type TabType = "entities" | "metrics" | "models";
 

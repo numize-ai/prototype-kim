@@ -2,11 +2,10 @@
 
 import React from "react";
 
-import { BlockConfigPanel } from "~components/digest/BlockConfigPanel";
-import type { BlockConfig, BlockType } from "~mocks/digest-data";
-
 import { Button } from "~/components/ui/button";
 import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "~/components/ui/dialog";
+import { BlockConfigPanel } from "~components/digest/BlockConfigPanel";
+import type { BlockConfig, BlockType } from "~mocks/digest-data";
 
 interface BlockEditDialogProps {
   open: boolean;

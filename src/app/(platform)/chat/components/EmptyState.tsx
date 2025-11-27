@@ -4,6 +4,7 @@
 import React from "react";
 
 import { Card } from "~/components/ui/card";
+
 import { motion } from "framer-motion";
 import { BarChart3, Sparkles, TrendingUp, Zap } from "lucide-react";
 

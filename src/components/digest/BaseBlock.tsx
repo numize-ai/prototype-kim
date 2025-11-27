@@ -2,12 +2,12 @@
 
 import React from "react";
 
+import { Button } from "~/components/ui/button";
 import { BlockEditDialog } from "~components/digest/BlockEditDialog";
 import { BlockHandle } from "~components/digest/BlockHandle";
 import { ContextMenu, type ContextMenuAction } from "~components/digest/ContextMenu";
 import { type BlockConfig, getDefaultBlockConfig } from "~mocks/digest-data";
 
-import { Button } from "~/components/ui/button";
 import { MessageSquare } from "lucide-react";
 
 export type BlockType = "action" | "chart" | "highlight" | "insight" | "kpi" | "sql" | "table" | "trend";

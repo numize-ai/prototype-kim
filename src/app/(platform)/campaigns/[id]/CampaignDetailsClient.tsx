@@ -8,6 +8,10 @@
 
 import React from "react";
 
+import { Badge } from "~/components/ui/badge";
+import { Button } from "~/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "~/components/ui/card";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "~/components/ui/table";
 import { AttributionInsight } from "~components/marketing/AttributionInsight";
 import { FunnelChart } from "~components/marketing/FunnelChart";
 import { MarketingMetricCard } from "~components/marketing/MarketingMetricCard";
@@ -22,22 +26,11 @@ import {
   generateCampaignFunnel,
 } from "../helpers";
 
-import { Badge } from "~/components/ui/badge";
-import { Button } from "~/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "~/components/ui/card";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "~/components/ui/table";
+import type { EChartsOption } from "echarts";
+import ReactECharts from "echarts-for-react";
 import { motion } from "framer-motion";
 import { ArrowLeft, Calendar, DollarSign, Target, TrendingUp, Users } from "lucide-react";
 import { useRouter } from "next/navigation";
-import {
-  Area,
-  AreaChart,
-  CartesianGrid,
-  ResponsiveContainer,
-  Tooltip as RechartsTooltip,
-  XAxis,
-  YAxis,
-} from "recharts";
 
 interface CampaignDetailsClientProps {
   campaignData: CampaignDetailsData;
@@ -215,29 +208,73 @@ export const CampaignDetailsClient: React.FC<CampaignDetailsClientProps> = ({ ca
                 <CardDescription>Last {dailySpend.length} days of ad spend activity</CardDescription>
               </CardHeader>
               <CardContent>
-                <ResponsiveContainer width="100%" height={250}>
-                  <AreaChart data={dailySpend}>
-                    <defs>
-                      <linearGradient id="spendGradient" x1="0" y1="0" x2="0" y2="1">
-                        <stop offset="5%" stopColor="#3b82f6" stopOpacity={0.3} />
-                        <stop offset="95%" stopColor="#3b82f6" stopOpacity={0} />
-                      </linearGradient>
-                    </defs>
-                    <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
-                    <XAxis dataKey="date" tick={{ fontSize: 12 }} stroke="#64748b" />
-                    <YAxis tick={{ fontSize: 12 }} stroke="#64748b" />
-                    <RechartsTooltip
-                      contentStyle={{
-                        backgroundColor: "white",
-                        border: "1px solid #e2e8f0",
-                        borderRadius: "8px",
-                        padding: "8px",
-                      }}
-                      formatter={(value: number) => [`€${value.toLocaleString()}`, "Spend"]}
-                    />
-                    <Area type="monotone" dataKey="spend" stroke="#3b82f6" fillOpacity={1} fill="url(#spendGradient)" />
-                  </AreaChart>
-                </ResponsiveContainer>
+                <ReactECharts
+                  option={
+                    {
+                      tooltip: {
+                        trigger: "axis",
+                        backgroundColor: "#fff",
+                        borderColor: "#e2e8f0",
+                        borderWidth: 1,
+                        borderRadius: 8,
+                        padding: 8,
+                        textStyle: { color: "#111827" },
+                        formatter: (params) => {
+                          if (!Array.isArray(params) || params.length === 0) return "";
+                          const param = params[0];
+                          if (!param) return "";
+                          const value = typeof param.value === "number" ? param.value : 0;
+                          return `<div style="font-size: 12px;">
+                            <div style="font-weight: 600; margin-bottom: 4px;">${param.name}</div>
+                            <div>Spend: <span style="font-weight: 600;">€${value.toLocaleString()}</span></div>
+                          </div>`;
+                        },
+                      },
+                      grid: {
+                        left: "3%",
+                        right: "4%",
+                        bottom: "3%",
+                        top: "5%",
+                        containLabel: true,
+                      },
+                      xAxis: {
+                        type: "category",
+                        data: dailySpend.map((item) => item.date),
+                        axisLabel: { color: "#64748b", fontSize: 12 },
+                        axisLine: { lineStyle: { color: "#e2e8f0" } },
+                        boundaryGap: false,
+                      },
+                      yAxis: {
+                        type: "value",
+                        axisLabel: { color: "#64748b", fontSize: 12 },
+                        splitLine: { lineStyle: { color: "#e2e8f0", type: "dashed" } },
+                      },
+                      series: [
+                        {
+                          type: "line",
+                          data: dailySpend.map((item) => item.spend),
+                          smooth: true,
+                          areaStyle: {
+                            color: {
+                              type: "linear",
+                              x: 0,
+                              y: 0,
+                              x2: 0,
+                              y2: 1,
+                              colorStops: [
+                                { offset: 0, color: "rgba(59, 130, 246, 0.3)" },
+                                { offset: 1, color: "rgba(59, 130, 246, 0)" },
+                              ],
+                            },
+                          },
+                          lineStyle: { color: "#3b82f6", width: 2 },
+                          itemStyle: { color: "#3b82f6" },
+                        },
+                      ],
+                    } satisfies EChartsOption
+                  }
+                  style={{ height: "250px", width: "100%" }}
+                />
               </CardContent>
             </Card>
 

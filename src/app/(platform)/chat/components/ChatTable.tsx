@@ -7,10 +7,10 @@
 
 import React, { useState } from "react";
 
-import type { TableData } from "~mocks/chat-data";
-
 import { Button } from "~/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "~/components/ui/card";
+import type { TableData } from "~mocks/chat-data";
+
 import { ArrowUpDown, Download } from "lucide-react";
 
 interface ChatTableProps {

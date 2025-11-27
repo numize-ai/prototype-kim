@@ -4,6 +4,7 @@
 import { useEffect, useRef } from "react";
 
 import { Button } from "~/components/ui/button";
+
 import { motion } from "framer-motion";
 import gsap from "gsap";
 import { ArrowRight, Play } from "lucide-react";

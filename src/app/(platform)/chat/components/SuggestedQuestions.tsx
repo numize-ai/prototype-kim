@@ -2,13 +2,13 @@
 
 import React from "react";
 
+import { Badge } from "~/components/ui/badge";
+import { Tooltip, TooltipContent, TooltipTrigger } from "~/components/ui/tooltip";
 import type { ChatSuggestion } from "~services/suggestionEngine";
 import { isSuggestionLocked } from "~services/suggestionEngine";
 import { useAppSelector } from "~store";
 import { selectConnectedSourceIds, selectHasMultipleSources } from "~store/slices/connectorsSlice";
 
-import { Badge } from "~/components/ui/badge";
-import { Tooltip, TooltipContent, TooltipTrigger } from "~/components/ui/tooltip";
 import { Layers, Lock } from "lucide-react";
 
 interface SuggestedQuestionsProps {

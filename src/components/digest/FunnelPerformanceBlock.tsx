@@ -2,11 +2,11 @@
 
 import React from "react";
 
+import { Button } from "~/components/ui/button";
 import { BlockHandle } from "~components/digest/BlockHandle";
 import { ContextMenu } from "~components/digest/ContextMenu";
 import type { BlockResult, FunnelStage } from "~mocks/digest-data";
 
-import { Button } from "~/components/ui/button";
 import { ArrowDown, ArrowRight, ArrowUp, MessageSquare } from "lucide-react";
 
 interface FunnelPerformanceBlockProps {

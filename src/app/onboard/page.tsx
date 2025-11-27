@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 
+import { Button } from "~/components/ui/button";
 import CompletionStep from "~app/onboard/components/CompletionStep";
 import DataSourceStep, { type DataSourceConfig } from "~app/onboard/components/DataSourceStep";
 import DbtProjectStep, { type DbtProjectConfig } from "~app/onboard/components/DbtProjectStep";
@@ -11,7 +12,6 @@ import ToolsConfigurationStep, { type ToolConfig } from "~app/onboard/components
 import { useAppDispatch } from "~store";
 import { completeOnboarding } from "~store/slices/userSlice";
 
-import { Button } from "~/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const STEPS: Step[] = [

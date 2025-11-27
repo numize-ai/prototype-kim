@@ -2,6 +2,9 @@
 
 import React from "react";
 
+import { Checkbox } from "~/components/ui/checkbox";
+import { Label } from "~/components/ui/label";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "~/components/ui/select";
 import type {
   BlockConfig,
   BlockType,
@@ -10,10 +13,6 @@ import type {
   KPIBlockConfig,
   TableBlockConfig,
 } from "~mocks/digest-data";
-
-import { Checkbox } from "~/components/ui/checkbox";
-import { Label } from "~/components/ui/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "~/components/ui/select";
 
 interface BlockConfigPanelProps {
   blockType: BlockType;
