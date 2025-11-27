@@ -1,0 +1,222 @@
+{
+  "common": {
+    "changeLanguage": "Change language",
+    "labelExample": "text example",
+    "labelExampleFormatted": "example <underline>formatted</underline> text",
+    "generalError": "An error has occurred",
+    "styledButton": "Example of @emotion/styled button "
+  },
+  "homepage": {
+    "meta": {
+      "title": "Numize - AI-Native Analytics Platform",
+      "description": "AI-native analytics workflow: from question to insight to action, governed by data teams and powered by semantic slices. Business teams gain autonomy without sacrificing governance."
+    },
+    "hero": {
+      "eyebrow": "AI-Native Analytics Platform",
+      "headline": "From question to insight to action",
+      "subheadline": "Numize enables business teams to access, understand, and act on their data without depending on analysts — while ensuring full governance and trust for the Data Team.",
+      "primaryCta": "Get Started",
+      "secondaryCta": "Watch Demo"
+    },
+    "logoStrip": {
+      "title": "Trusted by innovative companies worldwide"
+    },
+    "coreFeatures": {
+      "sectionTitle": "Three powerful features for autonomous analytics",
+      "sectionDescription": "Everything you need to go from question to insight to action, governed by your data team.",
+      "converseAndAct": {
+        "title": "Converse & Act",
+        "tagline": "Ask anything, understand everything, take action instantly",
+        "description": "Natural-language analytics with deep investigation mode and instant action execution via MCP servers.",
+        "highlight": "AI-powered",
+        "features": {
+          "naturalLanguage": "Ask questions in plain English and get SQL-backed answers",
+          "deepDive": "Deep investigation mode to understand anomalies and patterns",
+          "actions": "Execute actions via MCP servers (Brevo, HubSpot, Salesforce, Slack, Notion)",
+          "segments": "Create reusable segments and save action templates"
+        }
+      },
+      "weeklyDigest": {
+        "title": "Weekly Digest",
+        "tagline": "Your AI-generated Monday report. Structured, explainable, interactive",
+        "description": "Configurable recurring insights with anomaly detection, explanation, and interactive deep-dive capabilities.",
+        "highlight": "Proactive insights",
+        "features": {
+          "blocks": "Configurable blocks (KPIs, anomalies, funnels, product usage)",
+          "anomalies": "Automatic anomaly detection with confidence scores and explanations",
+          "splitScreen": "Split-screen mode with integrated chat for deep dives",
+          "recurrence": "Daily, weekly, or monthly delivery to email or in-app"
+        }
+      },
+      "semanticExposure": {
+        "title": "Semantic Exposure",
+        "tagline": "The Data Team defines the governed data that business teams can safely use",
+        "description": "Full governance and auditability with dbt integration, allowing data teams to expose semantic slices to business users.",
+        "highlight": "Governed",
+        "features": {
+          "slices": "Semantic slice management per team (Marketing, Product, Ops)",
+          "dbt": "Deep dbt integration with manifest sync and lineage tracking",
+          "governance": "Full auditability, review workflow for AI-generated assets",
+          "sources": "Data source configuration with privacy and scoping rules"
+        }
+      }
+    },
+    "personas": {
+      "sectionTitle": "Built for every role in your data ecosystem",
+      "sectionDescription": "From decision makers to power users to data governance, Numize serves all three core personas.",
+      "headOfX": {
+        "title": "Head of X",
+        "subtitle": "Marketing, Product, Ops",
+        "role": "Primary Decision Maker",
+        "description": "Strategic understanding with autonomy and speed. Get weekly insights, anomaly explanations, and take actions directly.",
+        "benefits": {
+          "autonomy": "Ask anything without waiting for analysts",
+          "proactive": "Receive proactive weekly insights with explanations",
+          "action": "Take action instantly via integrated connectors",
+          "speed": "Get answers in minutes, not days"
+        }
+      },
+      "businessOps": {
+        "title": "Business Ops",
+        "subtitle": "Growth Ops, Product Ops, Revenue Ops",
+        "role": "Power Users",
+        "description": "Execute deep investigations, produce segments, and run advanced analysis with the ability to automate activation workflows.",
+        "benefits": {
+          "investigations": "Deep-dive into anomalies and complex patterns",
+          "segments": "Build and manage customer segments",
+          "analysis": "Run advanced cohort and funnel analysis",
+          "automation": "Automate workflows with action execution"
+        }
+      },
+      "dataTeam": {
+        "title": "Data Team",
+        "subtitle": "Analytics Engineers, Data Engineers",
+        "role": "Governance Layer",
+        "description": "Own the dbt project and semantic layer. Provide governed semantic access with strict auditability and control.",
+        "benefits": {
+          "governance": "Full control over what data business teams can access",
+          "dbt": "Deep integration with your existing dbt project",
+          "auditability": "Complete audit trail of all queries and actions",
+          "quality": "Review and correct AI-generated SQL and segments"
+        }
+      }
+    },
+    "deepDive": {
+      "eyebrow": "How it works",
+      "headline": "Governed analytics workflow in three steps",
+      "description": "Your data team exposes semantic slices, business teams ask questions and take action, all while maintaining full governance and auditability.",
+      "features": {
+        "connect": "Data team configures semantic slices and data sources",
+        "ask": "Business teams ask questions in natural language",
+        "visualize": "AI generates SQL from governed semantic layer",
+        "share": "Deep-dive into insights with investigation mode",
+        "export": "Execute actions via MCP connectors (Brevo, HubSpot, Slack)"
+      }
+    },
+    "testimonials": {
+      "sarah": {
+        "quote": "Numize gives our business teams the autonomy they need while giving us the governance we require. The dbt integration means we maintain full control over the semantic layer.",
+        "author": "Sarah Chen",
+        "role": "Head of Data",
+        "company": "TechFlow"
+      },
+      "marcus": {
+        "quote": "I can ask 'Why did conversion drop in Italy?' and get a deep investigation with probable causes in seconds. Then I create a segment and push it to Brevo — all without bothering the data team.",
+        "author": "Marcus Rodriguez",
+        "role": "Head of Growth",
+        "company": "Acme Corp"
+      },
+      "emily": {
+        "quote": "The Weekly Digest is a game-changer. Every Monday I get proactive insights with anomaly detection and explanations. When something looks interesting, I can deep-dive right from the digest.",
+        "author": "Emily Thompson",
+        "role": "VP of Product",
+        "company": "DataViz Inc"
+      }
+    },
+    "pricing": {
+      "eyebrow": "Simple, transparent pricing",
+      "headline": "Start free, scale as you grow",
+      "description": "Connect your tools and get instant metrics. All plans include auto-generated dashboards and AI chat.",
+      "cta": "View Full Pricing",
+      "plans": {
+        "starter": {
+          "name": "Starter",
+          "price": "Free",
+          "description": "Perfect for individuals and small teams",
+          "features": {
+            "dataSources": "3 connectors",
+            "dashboards": "Auto-generated metrics",
+            "support": "Email support"
+          }
+        },
+        "professional": {
+          "name": "Professional",
+          "price": "$49",
+          "billing": "per user/month",
+          "description": "For growing teams that need more power",
+          "features": {
+            "dataSources": "Unlimited connectors",
+            "analytics": "Advanced AI analysis",
+            "support": "Priority support + Slack sync"
+          }
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "price": "Custom",
+          "description": "For large organizations with specific needs",
+          "features": {
+            "integrations": "Custom integrations + dbt",
+            "support": "Dedicated success manager",
+            "sla": "SLA + advanced security"
+          }
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Ready to empower your teams?",
+      "headline": "Enable autonomy without sacrificing governance",
+      "description": "Join forward-thinking companies that give their business teams data superpowers while maintaining full control.",
+      "primaryCta": "Get Started",
+      "secondaryCta": "Book a Demo",
+      "features": {
+        "noCredit": "14-day free trial",
+        "trial": "Full dbt integration",
+        "cancel": "Enterprise-grade security"
+      }
+    },
+    "footer": {
+      "company": {
+        "name": "Numize",
+        "description": "AI-native analytics platform: from question to insight to action, governed by data teams and powered by semantic slices."
+      },
+      "links": {
+        "product": {
+          "title": "Product",
+          "features": "Features",
+          "pricing": "Pricing",
+          "integrations": "Integrations",
+          "api": "API"
+        },
+        "resources": {
+          "title": "Resources",
+          "documentation": "Documentation",
+          "helpCenter": "Help Center",
+          "blog": "Blog",
+          "caseStudies": "Case Studies"
+        },
+        "company": {
+          "title": "Company",
+          "about": "About",
+          "careers": "Careers",
+          "contact": "Contact",
+          "privacy": "Privacy"
+        }
+      },
+      "social": {
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+      }
+    }
+  }
+}

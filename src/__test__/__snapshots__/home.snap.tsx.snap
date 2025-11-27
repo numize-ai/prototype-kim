@@ -1,0 +1,3893 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing page example should render home 1`] = `
+<div>
+  <div
+    class="min-h-screen bg-white dark:bg-slate-900"
+  >
+    <header
+      class="absolute inset-x-0 top-0 z-50"
+    >
+      <nav
+        class="flex items-center justify-between p-6 lg:px-8"
+      >
+        <div
+          class="flex lg:flex-1"
+        >
+          <a
+            class="-m-1.5 p-1.5"
+            href="/"
+          >
+            <span
+              class="sr-only"
+            >
+              Numize
+            </span>
+            <div
+              class="flex items-center gap-2"
+            >
+              <div
+                class="h-8 w-8 rounded-lg bg-primary flex items-center justify-center"
+              >
+                <span
+                  class="text-primary-foreground font-bold text-sm"
+                >
+                  N
+                </span>
+              </div>
+              <span
+                class="text-xl font-bold text-slate-900 dark:text-slate-100"
+              >
+                Numize
+              </span>
+            </div>
+          </a>
+        </div>
+        <div
+          class="flex lg:hidden"
+        >
+          <button
+            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-slate-700 dark:text-slate-300"
+            type="button"
+          >
+            <span
+              class="sr-only"
+            >
+              Open main menu
+            </span>
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-menu h-6 w-6"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 5h16"
+              />
+              <path
+                d="M4 12h16"
+              />
+              <path
+                d="M4 19h16"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="hidden lg:flex lg:gap-x-12"
+        >
+          <a
+            class="text-base font-semibold leading-6 text-slate-800 hover:text-primary dark:text-slate-200 dark:hover:text-primary transition-colors"
+            href="/features"
+          >
+            Features
+          </a>
+          <a
+            class="text-base font-semibold leading-6 text-slate-800 hover:text-primary dark:text-slate-200 dark:hover:text-primary transition-colors"
+            href="/pricing"
+          >
+            Pricing
+          </a>
+          <a
+            class="text-base font-semibold leading-6 text-slate-800 hover:text-primary dark:text-slate-200 dark:hover:text-primary transition-colors"
+            href="/about"
+          >
+            About
+          </a>
+          <a
+            class="text-base font-semibold leading-6 text-slate-800 hover:text-primary dark:text-slate-200 dark:hover:text-primary transition-colors"
+            href="/blog"
+          >
+            Blog
+          </a>
+        </div>
+        <div
+          class="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-4 lg:items-center"
+        >
+          <div
+            class="flex items-center gap-1 rounded-md border border-border bg-background p-1"
+          >
+            <button
+              class="inline-flex items-center justify-center whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 rounded-md gap-1.5 has-[>svg]:px-2.5 h-7 px-2 text-xs"
+              data-slot="button"
+            >
+              EN
+            </button>
+            <button
+              class="inline-flex items-center justify-center whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 rounded-md gap-1.5 has-[>svg]:px-2.5 h-7 px-2 text-xs"
+              data-slot="button"
+            >
+              FR
+            </button>
+          </div>
+          <a
+            href="/onboard"
+          >
+            <button
+              class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 h-9 px-4 py-2 has-[>svg]:px-3"
+              data-slot="button"
+            >
+              Sign in
+            </button>
+          </a>
+          <a
+            href="/onboard"
+          >
+            <button
+              class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 h-9 px-4 py-2 has-[>svg]:px-3"
+              data-slot="button"
+            >
+              Get started
+            </button>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="relative overflow-hidden bg-gradient-to-br from-white via-slate-50/50 to-blue-50/30 dark:from-slate-950 dark:via-slate-900 dark:to-slate-800"
+      >
+        <div
+          class="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-tr from-blue-50/40 via-transparent to-purple-50/30 dark:from-blue-950/20 dark:to-purple-950/20"
+        />
+        <div
+          class="absolute top-0 -left-4 w-72 h-72 bg-purple-300/20 dark:bg-purple-600/10 rounded-full mix-blend-multiply dark:mix-blend-lighten filter blur-xl opacity-70 animate-blob"
+        />
+        <div
+          class="absolute top-0 -right-4 w-72 h-72 bg-blue-300/20 dark:bg-blue-600/10 rounded-full mix-blend-multiply dark:mix-blend-lighten filter blur-xl opacity-70 animate-blob animation-delay-2000"
+        />
+        <div
+          class="absolute -bottom-8 left-20 w-72 h-72 bg-pink-300/20 dark:bg-pink-600/10 rounded-full mix-blend-multiply dark:mix-blend-lighten filter blur-xl opacity-70 animate-blob animation-delay-4000"
+        />
+        <div
+          class="relative"
+        >
+          <div
+            class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+          >
+            <div
+              class="pb-20 pt-16 sm:pb-24 sm:pt-24 lg:pb-32 lg:pt-32"
+            >
+              <div
+                animate="[object Object]"
+                class="mx-auto max-w-4xl text-center"
+                initial="[object Object]"
+                transition="[object Object]"
+              >
+                <div
+                  animate="[object Object]"
+                  class="mb-6"
+                  initial="[object Object]"
+                  transition="[object Object]"
+                >
+                  <span
+                    class="inline-flex items-center rounded-full bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 px-4 py-2 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20 shadow-sm backdrop-blur-sm"
+                  >
+                    Business data platform
+                  </span>
+                </div>
+                <h1
+                  class="text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100 sm:text-6xl lg:text-7xl flex flex-wrap justify-center"
+                >
+                  <div
+                    class="inline-block overflow-visible mr-4 last:mr-0 pb-2"
+                  >
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      C
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      o
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      n
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      n
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      e
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      c
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      t
+                    </span>
+                  </div>
+                  <div
+                    class="inline-block overflow-visible mr-4 last:mr-0 pb-2"
+                  >
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      t
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      o
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      o
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      l
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      s
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      .
+                    </span>
+                  </div>
+                  <div
+                    class="inline-block overflow-visible mr-4 last:mr-0 pb-2"
+                  >
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      G
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      e
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      t
+                    </span>
+                  </div>
+                  <div
+                    class="inline-block overflow-visible mr-4 last:mr-0 pb-2"
+                  >
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      m
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      e
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      t
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      r
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      i
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      c
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      s
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      .
+                    </span>
+                  </div>
+                  <div
+                    class="inline-block overflow-visible mr-4 last:mr-0 pb-2"
+                  >
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      T
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      a
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      k
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      e
+                    </span>
+                  </div>
+                  <div
+                    class="inline-block overflow-visible mr-4 last:mr-0 pb-2"
+                  >
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      a
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      c
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      t
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      i
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      o
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      n
+                    </span>
+                    <span
+                      class="char inline-block"
+                      style="opacity: 0; transform: translate(0px, 100px) ;"
+                    >
+                      .
+                    </span>
+                  </div>
+                </h1>
+                <p
+                  animate="[object Object]"
+                  class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-400"
+                  initial="[object Object]"
+                  transition="[object Object]"
+                >
+                  Numize turns your SaaS tools into a ready-to-use data platform. No setup, no code, no data team required.
+                </p>
+                <div
+                  animate="[object Object]"
+                  class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
+                  initial="[object Object]"
+                  transition="[object Object]"
+                >
+                  <a
+                    href="/onboard"
+                  >
+                    <button
+                      class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 rounded-md has-[>svg]:px-4 group h-12 px-8 text-base w-full sm:w-auto shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 hover:scale-105"
+                      data-slot="button"
+                    >
+                      Start in 30 Seconds
+                      <svg
+                        aria-hidden="true"
+                        class="lucide lucide-arrow-right ml-2 h-4 w-4 transition-transform group-hover:translate-x-1"
+                        fill="none"
+                        height="24"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        viewBox="0 0 24 24"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M5 12h14"
+                        />
+                        <path
+                          d="m12 5 7 7-7 7"
+                        />
+                      </svg>
+                    </button>
+                  </a>
+                  <button
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border border-slate-300 bg-transparent text-slate-900 shadow-xs hover:text-slate-900 dark:border-slate-500 dark:text-slate-100 dark:hover:text-white rounded-md has-[>svg]:px-4 h-12 px-8 text-base w-full sm:w-auto hover:bg-slate-50 dark:hover:bg-slate-800 transition-all duration-300 hover:scale-105 hover:border-primary/50"
+                    data-slot="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-play mr-2 h-4 w-4"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"
+                      />
+                    </svg>
+                    Watch Demo
+                  </button>
+                </div>
+              </div>
+              <div
+                animate="[object Object]"
+                class="mx-auto mt-16 max-w-5xl"
+                initial="[object Object]"
+                transition="[object Object]"
+              >
+                <div
+                  class="relative rounded-2xl bg-gradient-to-br from-white/40 to-white/10 p-2 ring-1 ring-inset ring-white/20 backdrop-blur-lg dark:from-slate-800/50 dark:to-slate-800/20 dark:ring-slate-700/50 shadow-2xl"
+                >
+                  <div
+                    class="absolute -inset-1 bg-gradient-to-r from-blue-600/20 via-purple-600/20 to-pink-600/20 rounded-2xl blur-lg opacity-60"
+                  />
+                  <div
+                    class="relative overflow-hidden rounded-xl bg-white shadow-2xl ring-1 ring-slate-900/10 dark:bg-slate-900 dark:ring-slate-800"
+                  >
+                    <video
+                      autoplay=""
+                      class="w-full object-cover"
+                      loop=""
+                      playsinline=""
+                      src="/video.mp4"
+                    />
+                    <div
+                      class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent dark:from-slate-900"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="relative py-12 sm:py-16 overflow-hidden bg-gradient-to-b from-white via-slate-50/50 to-white dark:from-slate-950 dark:via-slate-900/50 dark:to-slate-950"
+      >
+        <div
+          class="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-20 [mask-image:linear-gradient(90deg,transparent,white,transparent)]"
+        />
+        <div
+          class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative"
+        >
+          <div
+            class="text-center"
+          >
+            <p
+              class="text-base font-semibold uppercase tracking-wider text-slate-600 dark:text-slate-400"
+            >
+              Trusted by innovative companies worldwide
+            </p>
+            <div
+              class="mt-8 space-y-8 overflow-hidden"
+            >
+              <div
+                class="relative overflow-hidden"
+              >
+                <div
+                  class="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-white dark:from-slate-950 to-transparent z-10 pointer-events-none"
+                />
+                <div
+                  class="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white dark:from-slate-950 to-transparent z-10 pointer-events-none"
+                />
+                <div
+                  class="flex items-center gap-12 sm:gap-16 animate-scroll-left"
+                >
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="Acme Corp"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="TechFlow"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="DataViz Inc"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="Analytics Pro"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="InsightCo"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="MetricLabs"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="Acme Corp"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="TechFlow"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="DataViz Inc"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="Analytics Pro"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="InsightCo"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="MetricLabs"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="Acme Corp"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="TechFlow"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="DataViz Inc"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="Analytics Pro"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="InsightCo"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="MetricLabs"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="Acme Corp"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="TechFlow"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="DataViz Inc"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="Analytics Pro"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="InsightCo"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="MetricLabs"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="relative overflow-hidden"
+              >
+                <div
+                  class="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-white dark:from-slate-950 to-transparent z-10 pointer-events-none"
+                />
+                <div
+                  class="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white dark:from-slate-950 to-transparent z-10 pointer-events-none"
+                />
+                <div
+                  class="flex items-center gap-12 sm:gap-16 animate-scroll-right"
+                >
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="Acme Corp"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="TechFlow"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="DataViz Inc"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="Analytics Pro"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="InsightCo"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="MetricLabs"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="Acme Corp"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="TechFlow"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="DataViz Inc"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="Analytics Pro"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="InsightCo"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="MetricLabs"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="Acme Corp"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="TechFlow"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="DataViz Inc"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="Analytics Pro"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="InsightCo"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="MetricLabs"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="Acme Corp"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="TechFlow"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="DataViz Inc"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="Analytics Pro"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="InsightCo"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="group flex h-16 items-center justify-center grayscale opacity-50 transition-all duration-500 hover:grayscale-0 hover:opacity-100 hover:scale-110 shrink-0 cursor-pointer"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      />
+                      <img
+                        alt="MetricLabs"
+                        class="relative h-10 w-auto object-contain sm:h-12 filter drop-shadow-sm group-hover:drop-shadow-md transition-all duration-300"
+                        data-nimg="1"
+                        decoding="async"
+                        height="56"
+                        loading="lazy"
+                        src="/_next/image?url=%2Fdatadog.png&w=384&q=75"
+                        srcset="/_next/image?url=%2Fdatadog.png&w=256&q=75 1x, /_next/image?url=%2Fdatadog.png&w=384&q=75 2x"
+                        style="color: transparent;"
+                        width="140"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="py-10 sm:py-14 lg:py-16 relative overflow-hidden"
+      >
+        <div
+          class="absolute inset-0 bg-gradient-to-b from-white via-slate-50/30 to-white dark:from-slate-950 dark:via-slate-900/30 dark:to-slate-950"
+        />
+        <div
+          class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative"
+        >
+          <div
+            class="mx-auto max-w-2xl text-center"
+          >
+            <h2
+              class="text-3xl font-bold tracking-tight bg-gradient-to-br from-slate-900 to-slate-700 dark:from-slate-100 dark:to-slate-300 bg-clip-text text-transparent sm:text-4xl"
+            >
+              Everything you need to unlock your data
+            </h2>
+            <p
+              class="mt-4 text-lg text-slate-600 dark:text-slate-400"
+            >
+              Powerful features designed for non-technical teams to explore data and generate insights.
+            </p>
+          </div>
+          <div
+            class="mx-auto mt-16 max-w-6xl"
+          >
+            <div
+              class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+            >
+              <div
+                initial="[object Object]"
+                transition="[object Object]"
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
+                <div
+                  class="rounded-2xl border text-card-foreground shadow-sm group relative h-full transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 hover:-translate-y-2 border-slate-200 dark:border-slate-700 hover:border-primary/30 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm"
+                >
+                  <div
+                    class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-t-lg"
+                  />
+                  <div
+                    class="flex flex-col space-y-1.5 p-6 pb-4"
+                  >
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 text-primary group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 shadow-sm"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-message-square h-6 w-6 group-hover:scale-110 transition-transform duration-300"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="inline-flex items-center rounded-full px-2.5 py-0.5 font-semibold focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground border hover:bg-accent text-xs border-primary/20 bg-primary/5 group-hover:bg-primary/10 transition-colors duration-300"
+                      >
+                        Instant insights
+                      </div>
+                    </div>
+                    <div
+                      class="font-semibold tracking-tight text-xl group-hover:text-primary transition-colors duration-300"
+                    >
+                      Auto-Generated Metrics
+                    </div>
+                  </div>
+                  <div
+                    class="p-6 pt-0"
+                  >
+                    <div
+                      class="text-muted-foreground text-base leading-relaxed"
+                    >
+                      Connect your tools and instantly get MRR, churn, LTV/CAC, and more. No configuration required.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                initial="[object Object]"
+                transition="[object Object]"
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
+                <div
+                  class="rounded-2xl border text-card-foreground shadow-sm group relative h-full transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 hover:-translate-y-2 border-slate-200 dark:border-slate-700 hover:border-primary/30 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm"
+                >
+                  <div
+                    class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-t-lg"
+                  />
+                  <div
+                    class="flex flex-col space-y-1.5 p-6 pb-4"
+                  >
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 text-primary group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 shadow-sm"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-brain h-6 w-6 group-hover:scale-110 transition-transform duration-300"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 18V5"
+                          />
+                          <path
+                            d="M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4"
+                          />
+                          <path
+                            d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5"
+                          />
+                          <path
+                            d="M17.997 5.125a4 4 0 0 1 2.526 5.77"
+                          />
+                          <path
+                            d="M18 18a4 4 0 0 0 2-7.464"
+                          />
+                          <path
+                            d="M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517"
+                          />
+                          <path
+                            d="M6 18a4 4 0 0 1-2-7.464"
+                          />
+                          <path
+                            d="M6.003 5.125a4 4 0 0 0-2.526 5.77"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="inline-flex items-center rounded-full px-2.5 py-0.5 font-semibold focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground border hover:bg-accent text-xs border-primary/20 bg-primary/5 group-hover:bg-primary/10 transition-colors duration-300"
+                      >
+                        Natural language
+                      </div>
+                    </div>
+                    <div
+                      class="font-semibold tracking-tight text-xl group-hover:text-primary transition-colors duration-300"
+                    >
+                      AI-Powered Analysis
+                    </div>
+                  </div>
+                  <div
+                    class="p-6 pt-0"
+                  >
+                    <div
+                      class="text-muted-foreground text-base leading-relaxed"
+                    >
+                      Ask questions in plain English and get instant answers. Explore trends, cohorts, and patterns naturally.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                initial="[object Object]"
+                transition="[object Object]"
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
+                <div
+                  class="rounded-2xl border text-card-foreground shadow-sm group relative h-full transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 hover:-translate-y-2 border-slate-200 dark:border-slate-700 hover:border-primary/30 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm"
+                >
+                  <div
+                    class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-t-lg"
+                  />
+                  <div
+                    class="flex flex-col space-y-1.5 p-6 pb-4"
+                  >
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 text-primary group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 shadow-sm"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-chart-column h-6 w-6 group-hover:scale-110 transition-transform duration-300"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M3 3v16a2 2 0 0 0 2 2h16"
+                          />
+                          <path
+                            d="M18 17V9"
+                          />
+                          <path
+                            d="M13 17V5"
+                          />
+                          <path
+                            d="M8 17v-3"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="inline-flex items-center rounded-full px-2.5 py-0.5 font-semibold focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground border hover:bg-accent text-xs border-primary/20 bg-primary/5 group-hover:bg-primary/10 transition-colors duration-300"
+                      >
+                        Workflow automation
+                      </div>
+                    </div>
+                    <div
+                      class="font-semibold tracking-tight text-xl group-hover:text-primary transition-colors duration-300"
+                    >
+                      Sync Everywhere
+                    </div>
+                  </div>
+                  <div
+                    class="p-6 pt-0"
+                  >
+                    <div
+                      class="text-muted-foreground text-base leading-relaxed"
+                    >
+                      Push insights to Sheets, Slack, CRM, and more. Keep your workflows intact.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                initial="[object Object]"
+                transition="[object Object]"
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
+                <div
+                  class="rounded-2xl border text-card-foreground shadow-sm group relative h-full transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 hover:-translate-y-2 border-slate-200 dark:border-slate-700 hover:border-primary/30 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm"
+                >
+                  <div
+                    class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-t-lg"
+                  />
+                  <div
+                    class="flex flex-col space-y-1.5 p-6 pb-4"
+                  >
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 text-primary group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 shadow-sm"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-file-text h-6 w-6 group-hover:scale-110 transition-transform duration-300"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+                          />
+                          <path
+                            d="M14 2v5a1 1 0 0 0 1 1h5"
+                          />
+                          <path
+                            d="M10 9H8"
+                          />
+                          <path
+                            d="M16 13H8"
+                          />
+                          <path
+                            d="M16 17H8"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="inline-flex items-center rounded-full px-2.5 py-0.5 font-semibold focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground border hover:bg-accent text-xs border-primary/20 bg-primary/5 group-hover:bg-primary/10 transition-colors duration-300"
+                      >
+                        Fast setup
+                      </div>
+                    </div>
+                    <div
+                      class="font-semibold tracking-tight text-xl group-hover:text-primary transition-colors duration-300"
+                    >
+                      1-Click Connectors
+                    </div>
+                  </div>
+                  <div
+                    class="p-6 pt-0"
+                  >
+                    <div
+                      class="text-muted-foreground text-base leading-relaxed"
+                    >
+                      OAuth integration with Stripe, HubSpot, Shopify, GA4, and dozens more. Connected in seconds.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                initial="[object Object]"
+                transition="[object Object]"
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
+                <div
+                  class="rounded-2xl border text-card-foreground shadow-sm group relative h-full transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 hover:-translate-y-2 border-slate-200 dark:border-slate-700 hover:border-primary/30 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm"
+                >
+                  <div
+                    class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-t-lg"
+                  />
+                  <div
+                    class="flex flex-col space-y-1.5 p-6 pb-4"
+                  >
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 text-primary group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 shadow-sm"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-zap h-6 w-6 group-hover:scale-110 transition-transform duration-300"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="inline-flex items-center rounded-full px-2.5 py-0.5 font-semibold focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground border hover:bg-accent text-xs border-primary/20 bg-primary/5 group-hover:bg-primary/10 transition-colors duration-300"
+                      >
+                        Live data
+                      </div>
+                    </div>
+                    <div
+                      class="font-semibold tracking-tight text-xl group-hover:text-primary transition-colors duration-300"
+                    >
+                      Real-Time Updates
+                    </div>
+                  </div>
+                  <div
+                    class="p-6 pt-0"
+                  >
+                    <div
+                      class="text-muted-foreground text-base leading-relaxed"
+                    >
+                      Your metrics stay fresh automatically. Always up-to-date, always accurate.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                initial="[object Object]"
+                transition="[object Object]"
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
+                <div
+                  class="rounded-2xl border text-card-foreground shadow-sm group relative h-full transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 hover:-translate-y-2 border-slate-200 dark:border-slate-700 hover:border-primary/30 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm"
+                >
+                  <div
+                    class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-t-lg"
+                  />
+                  <div
+                    class="flex flex-col space-y-1.5 p-6 pb-4"
+                  >
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 text-primary group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 shadow-sm"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-users h-6 w-6 group-hover:scale-110 transition-transform duration-300"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
+                          />
+                          <path
+                            d="M16 3.128a4 4 0 0 1 0 7.744"
+                          />
+                          <path
+                            d="M22 21v-2a4 4 0 0 0-3-3.87"
+                          />
+                          <circle
+                            cx="9"
+                            cy="7"
+                            r="4"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="inline-flex items-center rounded-full px-2.5 py-0.5 font-semibold focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground border hover:bg-accent text-xs border-primary/20 bg-primary/5 group-hover:bg-primary/10 transition-colors duration-300"
+                      >
+                        Grows with you
+                      </div>
+                    </div>
+                    <div
+                      class="font-semibold tracking-tight text-xl group-hover:text-primary transition-colors duration-300"
+                    >
+                      Scalable Foundation
+                    </div>
+                  </div>
+                  <div
+                    class="p-6 pt-0"
+                  >
+                    <div
+                      class="text-muted-foreground text-base leading-relaxed"
+                    >
+                      Start simple, grow advanced. Customize your data model as your business scales.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="relative py-10 sm:py-14 lg:py-16 overflow-hidden"
+      >
+        <div
+          class="absolute inset-0 bg-gradient-to-br from-white via-slate-50/30 to-white dark:from-slate-950 dark:via-slate-900/30 dark:to-slate-950"
+        />
+        <div
+          class="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-30 [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"
+        />
+        <div
+          class="absolute top-1/4 right-0 w-96 h-96 bg-purple-300/10 dark:bg-purple-600/5 rounded-full blur-3xl"
+        />
+        <div
+          class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative"
+        >
+          <div
+            class="mx-auto grid max-w-6xl grid-cols-1 gap-x-12 gap-y-16 lg:grid-cols-2 lg:items-center"
+          >
+            <div
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <div
+                class="mb-6"
+              >
+                <span
+                  class="inline-flex items-center rounded-full bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 px-4 py-2 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20 shadow-sm"
+                >
+                  How it works
+                </span>
+              </div>
+              <h2
+                class="text-3xl font-bold tracking-tight bg-gradient-to-br from-slate-900 to-slate-700 dark:from-slate-100 dark:to-slate-300 bg-clip-text text-transparent sm:text-4xl"
+              >
+                From connection to insights in under 2 minutes
+              </h2>
+              <p
+                class="mt-6 text-lg leading-8 text-slate-600 dark:text-slate-400"
+              >
+                Numize delivers immediate value with zero configuration. Connect your SaaS tools via OAuth, get auto-generated business metrics instantly, then explore with AI or sync to your favorite tools.
+              </p>
+              <ul
+                class="mt-8 space-y-4"
+              >
+                <li
+                  class="group flex items-start gap-3"
+                  initial="[object Object]"
+                  transition="[object Object]"
+                  viewport="[object Object]"
+                  whileinview="[object Object]"
+                >
+                  <div
+                    class="flex-shrink-0 mt-0.5"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-full blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                      />
+                      <div
+                        class="relative flex h-6 w-6 items-center justify-center rounded-full bg-gradient-to-br from-primary/10 to-primary/5 text-primary ring-1 ring-primary/20 group-hover:ring-primary/40 group-hover:scale-110 transition-all duration-300"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-check h-3.5 w-3.5 group-hover:scale-110 transition-transform duration-300"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20 6 9 17l-5-5"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    class="text-slate-700 dark:text-slate-300 leading-6 group-hover:text-slate-900 dark:group-hover:text-slate-100 transition-colors duration-300"
+                  >
+                    Connect tools (Stripe, HubSpot, Shopify, GA4)
+                  </span>
+                </li>
+                <li
+                  class="group flex items-start gap-3"
+                  initial="[object Object]"
+                  transition="[object Object]"
+                  viewport="[object Object]"
+                  whileinview="[object Object]"
+                >
+                  <div
+                    class="flex-shrink-0 mt-0.5"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-full blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                      />
+                      <div
+                        class="relative flex h-6 w-6 items-center justify-center rounded-full bg-gradient-to-br from-primary/10 to-primary/5 text-primary ring-1 ring-primary/20 group-hover:ring-primary/40 group-hover:scale-110 transition-all duration-300"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-check h-3.5 w-3.5 group-hover:scale-110 transition-transform duration-300"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20 6 9 17l-5-5"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    class="text-slate-700 dark:text-slate-300 leading-6 group-hover:text-slate-900 dark:group-hover:text-slate-100 transition-colors duration-300"
+                  >
+                    Get auto-generated metrics (MRR, churn, LTV/CAC)
+                  </span>
+                </li>
+                <li
+                  class="group flex items-start gap-3"
+                  initial="[object Object]"
+                  transition="[object Object]"
+                  viewport="[object Object]"
+                  whileinview="[object Object]"
+                >
+                  <div
+                    class="flex-shrink-0 mt-0.5"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-full blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                      />
+                      <div
+                        class="relative flex h-6 w-6 items-center justify-center rounded-full bg-gradient-to-br from-primary/10 to-primary/5 text-primary ring-1 ring-primary/20 group-hover:ring-primary/40 group-hover:scale-110 transition-all duration-300"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-check h-3.5 w-3.5 group-hover:scale-110 transition-transform duration-300"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20 6 9 17l-5-5"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    class="text-slate-700 dark:text-slate-300 leading-6 group-hover:text-slate-900 dark:group-hover:text-slate-100 transition-colors duration-300"
+                  >
+                    Explore with AI chat in natural language
+                  </span>
+                </li>
+                <li
+                  class="group flex items-start gap-3"
+                  initial="[object Object]"
+                  transition="[object Object]"
+                  viewport="[object Object]"
+                  whileinview="[object Object]"
+                >
+                  <div
+                    class="flex-shrink-0 mt-0.5"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-full blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                      />
+                      <div
+                        class="relative flex h-6 w-6 items-center justify-center rounded-full bg-gradient-to-br from-primary/10 to-primary/5 text-primary ring-1 ring-primary/20 group-hover:ring-primary/40 group-hover:scale-110 transition-all duration-300"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-check h-3.5 w-3.5 group-hover:scale-110 transition-transform duration-300"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20 6 9 17l-5-5"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    class="text-slate-700 dark:text-slate-300 leading-6 group-hover:text-slate-900 dark:group-hover:text-slate-100 transition-colors duration-300"
+                  >
+                    Sync to Sheets, Slack, CRM with one click
+                  </span>
+                </li>
+                <li
+                  class="group flex items-start gap-3"
+                  initial="[object Object]"
+                  transition="[object Object]"
+                  viewport="[object Object]"
+                  whileinview="[object Object]"
+                >
+                  <div
+                    class="flex-shrink-0 mt-0.5"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="absolute inset-0 bg-primary/20 rounded-full blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                      />
+                      <div
+                        class="relative flex h-6 w-6 items-center justify-center rounded-full bg-gradient-to-br from-primary/10 to-primary/5 text-primary ring-1 ring-primary/20 group-hover:ring-primary/40 group-hover:scale-110 transition-all duration-300"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-check h-3.5 w-3.5 group-hover:scale-110 transition-transform duration-300"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20 6 9 17l-5-5"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    class="text-slate-700 dark:text-slate-300 leading-6 group-hover:text-slate-900 dark:group-hover:text-slate-100 transition-colors duration-300"
+                  >
+                    Schedule weekly reports or trigger alerts
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="relative"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <div
+                class="relative"
+              >
+                <div
+                  class="absolute -inset-4 bg-gradient-to-r from-primary/20 via-purple-500/20 to-pink-500/20 rounded-3xl blur-2xl opacity-50"
+                />
+                <div
+                  class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-100 to-slate-50 shadow-2xl ring-1 ring-slate-900/10 dark:from-slate-800 dark:to-slate-900 dark:ring-slate-700"
+                >
+                  <img
+                    alt="Product demonstration"
+                    class="w-full object-cover"
+                    data-nimg="1"
+                    decoding="async"
+                    height="400"
+                    loading="lazy"
+                    src="/_next/image?url=%2Fconnectors.png&w=1200&q=75"
+                    srcset="/_next/image?url=%2Fconnectors.png&w=640&q=75 1x, /_next/image?url=%2Fconnectors.png&w=1200&q=75 2x"
+                    style="color: transparent;"
+                    width="600"
+                  />
+                  <div
+                    class="absolute inset-0 bg-gradient-to-tr from-primary/20 via-transparent to-purple-500/10"
+                  />
+                  <div
+                    class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-primary/30 to-transparent rounded-bl-full"
+                  />
+                  <div
+                    class="absolute bottom-0 left-0 w-32 h-32 bg-gradient-to-tr from-purple-500/20 to-transparent rounded-tr-full"
+                  />
+                </div>
+                <div
+                  class="absolute -top-4 -right-4 w-20 h-20 bg-primary/10 rounded-full blur-xl"
+                />
+                <div
+                  class="absolute -bottom-4 -left-4 w-24 h-24 bg-purple-500/10 rounded-full blur-xl"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="relative py-10 sm:py-14 lg:py-16 bg-gradient-to-b from-slate-50 via-white to-slate-50 dark:from-slate-900/50 dark:via-slate-950 dark:to-slate-900/50 overflow-hidden"
+      >
+        <div
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-primary/5 rounded-full blur-3xl"
+        />
+        <div
+          class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative"
+        >
+          <div
+            class="mx-auto max-w-2xl text-center"
+            initial="[object Object]"
+            transition="[object Object]"
+            viewport="[object Object]"
+            whileinview="[object Object]"
+          >
+            <h2
+              class="text-3xl font-bold tracking-tight bg-gradient-to-br from-slate-900 to-slate-700 dark:from-slate-100 dark:to-slate-300 bg-clip-text text-transparent sm:text-4xl"
+            >
+              Loved by teams worldwide
+            </h2>
+            <p
+              class="mt-4 text-lg text-slate-600 dark:text-slate-400"
+            >
+              See how Numize is transforming how teams work with data.
+            </p>
+          </div>
+          <div
+            class="mx-auto mt-16 max-w-4xl"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                animate="[object Object]"
+                exit="[object Object]"
+                initial="[object Object]"
+                transition="[object Object]"
+              >
+                <div
+                  class="rounded-2xl text-card-foreground border-0 bg-gradient-to-br from-white via-white to-slate-50/50 dark:from-slate-800/90 dark:via-slate-800/80 dark:to-slate-900/90 backdrop-blur-sm shadow-xl ring-1 ring-slate-200/50 dark:ring-slate-700/50"
+                >
+                  <div
+                    class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-t-lg"
+                  />
+                  <div
+                    class="p-8 sm:p-12 relative"
+                  >
+                    <div
+                      class="absolute top-8 left-8 text-primary/10 text-6xl font-serif leading-none"
+                    >
+                      “
+                    </div>
+                    <blockquote
+                      class="text-center relative z-10"
+                    >
+                      <p
+                        class="text-xl font-medium text-slate-900 dark:text-slate-100 sm:text-2xl leading-relaxed"
+                      >
+                        “
+                        We connected Stripe and HubSpot in 30 seconds. Instantly got MRR, churn, and cohort analysis. No data team, no setup, no headache. Numize just works.
+                        ”
+                      </p>
+                      <footer
+                        class="mt-8"
+                      >
+                        <div
+                          class="flex items-center justify-center gap-4"
+                        >
+                          <div
+                            class="relative"
+                          >
+                            <div
+                              class="absolute inset-0 bg-gradient-to-r from-primary to-purple-600 rounded-full blur-sm opacity-50"
+                            />
+                            <img
+                              alt="Sarah Chen"
+                              class="relative h-12 w-12 rounded-full object-cover ring-2 ring-white dark:ring-slate-900"
+                              data-nimg="1"
+                              decoding="async"
+                              height="48"
+                              loading="lazy"
+                              src="/_next/image?url=%2Favatars%2Fsarah.jpg&w=96&q=75"
+                              srcset="/_next/image?url=%2Favatars%2Fsarah.jpg&w=48&q=75 1x, /_next/image?url=%2Favatars%2Fsarah.jpg&w=96&q=75 2x"
+                              style="color: transparent;"
+                              width="48"
+                            />
+                          </div>
+                          <div
+                            class="text-left"
+                          >
+                            <div
+                              class="font-semibold text-slate-900 dark:text-slate-100"
+                            >
+                              Sarah Chen
+                            </div>
+                            <div
+                              class="text-sm text-slate-600 dark:text-slate-400"
+                            >
+                              CFO
+                              , 
+                              TechFlow
+                            </div>
+                          </div>
+                        </div>
+                      </footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="mt-8 flex items-center justify-center gap-4"
+              >
+                <button
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border border-slate-300 bg-transparent text-slate-900 shadow-xs hover:text-slate-900 dark:border-slate-500 dark:text-slate-100 dark:hover:bg-slate-600 dark:hover:text-white size-9 h-10 w-10 rounded-full hover:bg-primary/10 hover:border-primary/50 hover:scale-110 transition-all duration-300"
+                  data-slot="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-left h-4 w-4"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m15 18-6-6 6-6"
+                    />
+                  </svg>
+                  <span
+                    class="sr-only"
+                  >
+                    Previous testimonial
+                  </span>
+                </button>
+                <div
+                  class="flex gap-2"
+                >
+                  <button
+                    class="h-2 rounded-full transition-all duration-300 bg-primary w-8"
+                  />
+                  <button
+                    class="h-2 rounded-full transition-all duration-300 bg-slate-300 dark:bg-slate-600 w-2 hover:bg-primary/50"
+                  />
+                  <button
+                    class="h-2 rounded-full transition-all duration-300 bg-slate-300 dark:bg-slate-600 w-2 hover:bg-primary/50"
+                  />
+                </div>
+                <button
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border border-slate-300 bg-transparent text-slate-900 shadow-xs hover:text-slate-900 dark:border-slate-500 dark:text-slate-100 dark:hover:bg-slate-600 dark:hover:text-white size-9 h-10 w-10 rounded-full hover:bg-primary/10 hover:border-primary/50 hover:scale-110 transition-all duration-300"
+                  data-slot="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-right h-4 w-4"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m9 18 6-6-6-6"
+                    />
+                  </svg>
+                  <span
+                    class="sr-only"
+                  >
+                    Next testimonial
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="py-10 sm:py-14 lg:py-16 bg-gradient-to-b from-slate-50/50 to-white dark:from-slate-900/50 dark:to-slate-950"
+      >
+        <div
+          class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+        >
+          <div
+            class="mx-auto max-w-2xl text-center"
+          >
+            <div
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <span
+                class="inline-flex items-center rounded-full bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 px-4 py-2 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20 shadow-sm"
+              >
+                Simple, transparent pricing
+              </span>
+            </div>
+            <h2
+              class="mt-6 text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 sm:text-4xl"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              Start free, scale as you grow
+            </h2>
+            <p
+              class="mt-4 text-lg text-slate-600 dark:text-slate-400"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              Connect your tools and get instant metrics. All plans include auto-generated dashboards and AI chat.
+            </p>
+          </div>
+          <div
+            class="mx-auto mt-16 grid max-w-5xl grid-cols-1 gap-8 lg:grid-cols-3"
+          >
+            <div
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <div
+                class="rounded-2xl border text-card-foreground shadow-sm group relative h-full transition-all duration-300 border-slate-200 dark:border-slate-700 hover:shadow-lg hover:-translate-y-1 hover:border-primary/30 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm"
+              >
+                <div
+                  class="flex flex-col space-y-1.5 p-6 text-center"
+                >
+                  <div
+                    class="font-semibold tracking-tight text-xl group-hover:text-primary transition-colors duration-300"
+                  >
+                    Starter
+                  </div>
+                  <div
+                    class="mt-4 flex items-baseline justify-center gap-x-2"
+                  >
+                    <span
+                      class="text-4xl font-bold tracking-tight bg-gradient-to-br from-slate-900 to-slate-700 dark:from-slate-100 dark:to-slate-300 bg-clip-text text-transparent"
+                    >
+                      Free
+                    </span>
+                  </div>
+                  <div
+                    class="text-sm text-muted-foreground mt-4"
+                  >
+                    Perfect for individuals and small teams
+                  </div>
+                </div>
+                <div
+                  class="p-6 pt-0 flex-1"
+                >
+                  <ul
+                    class="space-y-3"
+                  >
+                    <li
+                      class="flex items-center gap-3 group/item"
+                      initial="[object Object]"
+                      transition="[object Object]"
+                      viewport="[object Object]"
+                      whileinview="[object Object]"
+                    >
+                      <div
+                        class="flex h-5 w-5 items-center justify-center rounded-full bg-primary/10 group-hover/item:bg-primary/20 transition-colors duration-300"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-check h-3 w-3 text-primary"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20 6 9 17l-5-5"
+                          />
+                        </svg>
+                      </div>
+                      <span
+                        class="text-sm text-slate-700 dark:text-slate-300"
+                      >
+                        3 connectors
+                      </span>
+                    </li>
+                    <li
+                      class="flex items-center gap-3 group/item"
+                      initial="[object Object]"
+                      transition="[object Object]"
+                      viewport="[object Object]"
+                      whileinview="[object Object]"
+                    >
+                      <div
+                        class="flex h-5 w-5 items-center justify-center rounded-full bg-primary/10 group-hover/item:bg-primary/20 transition-colors duration-300"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-check h-3 w-3 text-primary"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20 6 9 17l-5-5"
+                          />
+                        </svg>
+                      </div>
+                      <span
+                        class="text-sm text-slate-700 dark:text-slate-300"
+                      >
+                        Auto-generated metrics
+                      </span>
+                    </li>
+                    <li
+                      class="flex items-center gap-3 group/item"
+                      initial="[object Object]"
+                      transition="[object Object]"
+                      viewport="[object Object]"
+                      whileinview="[object Object]"
+                    >
+                      <div
+                        class="flex h-5 w-5 items-center justify-center rounded-full bg-primary/10 group-hover/item:bg-primary/20 transition-colors duration-300"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-check h-3 w-3 text-primary"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20 6 9 17l-5-5"
+                          />
+                        </svg>
+                      </div>
+                      <span
+                        class="text-sm text-slate-700 dark:text-slate-300"
+                      >
+                        Email support
+                      </span>
+                    </li>
+                  </ul>
+                  <button
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border border-slate-300 bg-transparent text-slate-900 shadow-xs hover:bg-slate-100 hover:text-slate-900 dark:border-slate-500 dark:text-slate-100 dark:hover:bg-slate-600 dark:hover:text-white h-9 px-4 py-2 has-[>svg]:px-3 mt-8 w-full transition-all duration-300 hover:scale-105 group-hover:border-primary/50"
+                    data-slot="button"
+                  >
+                    Get Started
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-arrow-right ml-2 h-4 w-4"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5 12h14"
+                      />
+                      <path
+                        d="m12 5 7 7-7 7"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <div
+                class="rounded-2xl border text-card-foreground group relative h-full transition-all duration-300 border-primary shadow-xl shadow-primary/20 ring-2 ring-primary/30 hover:shadow-2xl hover:shadow-primary/30 hover:-translate-y-1 scale-105 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm"
+              >
+                <div
+                  class="absolute -top-3 left-1/2 -translate-x-1/2 z-10"
+                >
+                  <div
+                    class="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-primary/80 bg-gradient-to-r from-primary via-purple-600 to-primary text-white shadow-lg relative overflow-hidden"
+                  >
+                    <span
+                      class="relative z-10 flex items-center gap-1"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="lucide lucide-sparkles h-3 w-3"
+                        fill="none"
+                        height="24"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        viewBox="0 0 24 24"
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"
+                        />
+                        <path
+                          d="M20 2v4"
+                        />
+                        <path
+                          d="M22 4h-4"
+                        />
+                        <circle
+                          cx="4"
+                          cy="20"
+                          r="2"
+                        />
+                      </svg>
+                      Most Popular
+                    </span>
+                    <div
+                      class="absolute inset-0 animate-shimmer"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-t-lg"
+                />
+                <div
+                  class="flex flex-col space-y-1.5 p-6 text-center"
+                >
+                  <div
+                    class="font-semibold tracking-tight text-xl group-hover:text-primary transition-colors duration-300"
+                  >
+                    Professional
+                  </div>
+                  <div
+                    class="mt-4 flex items-baseline justify-center gap-x-2"
+                  >
+                    <span
+                      class="text-4xl font-bold tracking-tight bg-gradient-to-br from-slate-900 to-slate-700 dark:from-slate-100 dark:to-slate-300 bg-clip-text text-transparent"
+                    >
+                      $49
+                    </span>
+                    <span
+                      class="text-sm font-semibold leading-6 tracking-wide text-slate-600 dark:text-slate-400"
+                    >
+                      per user/month
+                    </span>
+                  </div>
+                  <div
+                    class="text-sm text-muted-foreground mt-4"
+                  >
+                    For growing teams that need more power
+                  </div>
+                </div>
+                <div
+                  class="p-6 pt-0 flex-1"
+                >
+                  <ul
+                    class="space-y-3"
+                  >
+                    <li
+                      class="flex items-center gap-3 group/item"
+                      initial="[object Object]"
+                      transition="[object Object]"
+                      viewport="[object Object]"
+                      whileinview="[object Object]"
+                    >
+                      <div
+                        class="flex h-5 w-5 items-center justify-center rounded-full bg-primary/10 group-hover/item:bg-primary/20 transition-colors duration-300"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-check h-3 w-3 text-primary"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20 6 9 17l-5-5"
+                          />
+                        </svg>
+                      </div>
+                      <span
+                        class="text-sm text-slate-700 dark:text-slate-300"
+                      >
+                        Unlimited connectors
+                      </span>
+                    </li>
+                    <li
+                      class="flex items-center gap-3 group/item"
+                      initial="[object Object]"
+                      transition="[object Object]"
+                      viewport="[object Object]"
+                      whileinview="[object Object]"
+                    >
+                      <div
+                        class="flex h-5 w-5 items-center justify-center rounded-full bg-primary/10 group-hover/item:bg-primary/20 transition-colors duration-300"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-check h-3 w-3 text-primary"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20 6 9 17l-5-5"
+                          />
+                        </svg>
+                      </div>
+                      <span
+                        class="text-sm text-slate-700 dark:text-slate-300"
+                      >
+                        Advanced AI analysis
+                      </span>
+                    </li>
+                    <li
+                      class="flex items-center gap-3 group/item"
+                      initial="[object Object]"
+                      transition="[object Object]"
+                      viewport="[object Object]"
+                      whileinview="[object Object]"
+                    >
+                      <div
+                        class="flex h-5 w-5 items-center justify-center rounded-full bg-primary/10 group-hover/item:bg-primary/20 transition-colors duration-300"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-check h-3 w-3 text-primary"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20 6 9 17l-5-5"
+                          />
+                        </svg>
+                      </div>
+                      <span
+                        class="text-sm text-slate-700 dark:text-slate-300"
+                      >
+                        Priority support + Slack sync
+                      </span>
+                    </li>
+                  </ul>
+                  <button
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-primary/90 h-9 px-4 py-2 has-[>svg]:px-3 mt-8 w-full transition-all duration-300 hover:scale-105 bg-gradient-to-r from-primary to-purple-600 text-white hover:from-primary/90 hover:to-purple-600/90 shadow-lg shadow-primary/30 hover:shadow-xl hover:shadow-primary/40"
+                    data-slot="button"
+                  >
+                    Get Started
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-arrow-right ml-2 h-4 w-4"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5 12h14"
+                      />
+                      <path
+                        d="m12 5 7 7-7 7"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <div
+                class="rounded-2xl border text-card-foreground shadow-sm group relative h-full transition-all duration-300 border-slate-200 dark:border-slate-700 hover:shadow-lg hover:-translate-y-1 hover:border-primary/30 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm"
+              >
+                <div
+                  class="flex flex-col space-y-1.5 p-6 text-center"
+                >
+                  <div
+                    class="font-semibold tracking-tight text-xl group-hover:text-primary transition-colors duration-300"
+                  >
+                    Enterprise
+                  </div>
+                  <div
+                    class="mt-4 flex items-baseline justify-center gap-x-2"
+                  >
+                    <span
+                      class="text-4xl font-bold tracking-tight bg-gradient-to-br from-slate-900 to-slate-700 dark:from-slate-100 dark:to-slate-300 bg-clip-text text-transparent"
+                    >
+                      Custom
+                    </span>
+                  </div>
+                  <div
+                    class="text-sm text-muted-foreground mt-4"
+                  >
+                    For large organizations with specific needs
+                  </div>
+                </div>
+                <div
+                  class="p-6 pt-0 flex-1"
+                >
+                  <ul
+                    class="space-y-3"
+                  >
+                    <li
+                      class="flex items-center gap-3 group/item"
+                      initial="[object Object]"
+                      transition="[object Object]"
+                      viewport="[object Object]"
+                      whileinview="[object Object]"
+                    >
+                      <div
+                        class="flex h-5 w-5 items-center justify-center rounded-full bg-primary/10 group-hover/item:bg-primary/20 transition-colors duration-300"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-check h-3 w-3 text-primary"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20 6 9 17l-5-5"
+                          />
+                        </svg>
+                      </div>
+                      <span
+                        class="text-sm text-slate-700 dark:text-slate-300"
+                      >
+                        Custom integrations + dbt
+                      </span>
+                    </li>
+                    <li
+                      class="flex items-center gap-3 group/item"
+                      initial="[object Object]"
+                      transition="[object Object]"
+                      viewport="[object Object]"
+                      whileinview="[object Object]"
+                    >
+                      <div
+                        class="flex h-5 w-5 items-center justify-center rounded-full bg-primary/10 group-hover/item:bg-primary/20 transition-colors duration-300"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-check h-3 w-3 text-primary"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20 6 9 17l-5-5"
+                          />
+                        </svg>
+                      </div>
+                      <span
+                        class="text-sm text-slate-700 dark:text-slate-300"
+                      >
+                        Dedicated success manager
+                      </span>
+                    </li>
+                    <li
+                      class="flex items-center gap-3 group/item"
+                      initial="[object Object]"
+                      transition="[object Object]"
+                      viewport="[object Object]"
+                      whileinview="[object Object]"
+                    >
+                      <div
+                        class="flex h-5 w-5 items-center justify-center rounded-full bg-primary/10 group-hover/item:bg-primary/20 transition-colors duration-300"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="lucide lucide-check h-3 w-3 text-primary"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M20 6 9 17l-5-5"
+                          />
+                        </svg>
+                      </div>
+                      <span
+                        class="text-sm text-slate-700 dark:text-slate-300"
+                      >
+                        SLA + advanced security
+                      </span>
+                    </li>
+                  </ul>
+                  <button
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border border-slate-300 bg-transparent text-slate-900 shadow-xs hover:bg-slate-100 hover:text-slate-900 dark:border-slate-500 dark:text-slate-100 dark:hover:bg-slate-600 dark:hover:text-white h-9 px-4 py-2 has-[>svg]:px-3 mt-8 w-full transition-all duration-300 hover:scale-105 group-hover:border-primary/50"
+                    data-slot="button"
+                  >
+                    Get Started
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-arrow-right ml-2 h-4 w-4"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5 12h14"
+                      />
+                      <path
+                        d="m12 5 7 7-7 7"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mt-12 text-center"
+            initial="[object Object]"
+            transition="[object Object]"
+            viewport="[object Object]"
+            whileinview="[object Object]"
+          >
+            <button
+              class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive underline-offset-4 hover:underline h-9 px-4 py-2 has-[>svg]:px-3 text-primary hover:text-primary/80 transition-colors group"
+              data-slot="button"
+            >
+              View Full Pricing
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-arrow-right ml-2 h-4 w-4 transition-transform group-hover:translate-x-1"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5 12h14"
+                />
+                <path
+                  d="m12 5 7 7-7 7"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section
+        class="relative py-10 sm:py-14 lg:py-16 overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950"
+      >
+        <div
+          class="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-10 [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"
+        />
+        <div
+          class="absolute top-0 left-1/4 w-96 h-96 bg-primary/20 rounded-full mix-blend-lighten filter blur-3xl opacity-30 animate-blob"
+        />
+        <div
+          class="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-500/20 rounded-full mix-blend-lighten filter blur-3xl opacity-30 animate-blob animation-delay-2000"
+        />
+        <div
+          class="absolute top-1/2 left-1/2 w-96 h-96 bg-purple-500/20 rounded-full mix-blend-lighten filter blur-3xl opacity-20 animate-blob animation-delay-4000"
+        />
+        <div
+          class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative"
+        >
+          <div
+            class="mx-auto max-w-2xl text-center"
+          >
+            <div
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <span
+                class="inline-flex items-center rounded-full bg-gradient-to-r from-primary/30 via-primary/20 to-primary/30 px-4 py-2 text-sm font-medium text-primary ring-1 ring-inset ring-primary/40 backdrop-blur-sm shadow-lg"
+              >
+                Ready to get started?
+              </span>
+            </div>
+            <h2
+              class="mt-6 text-3xl font-bold tracking-tight bg-gradient-to-r from-white via-white to-slate-200 bg-clip-text text-transparent sm:text-4xl"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              Get insights in minutes, not weeks
+            </h2>
+            <p
+              class="mt-4 text-lg text-slate-300"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              Join hundreds of operators who turned their SaaS tools into a complete data platform.
+            </p>
+            <div
+              class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <a
+                href="/onboard"
+              >
+                <button
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 rounded-md has-[>svg]:px-4 h-12 px-8 text-base group shadow-xl shadow-primary/30 hover:shadow-2xl hover:shadow-primary/40 transition-all duration-300 hover:scale-105 relative overflow-hidden"
+                  data-slot="button"
+                >
+                  <span
+                    class="relative z-10 flex items-center"
+                  >
+                    Start in 30 Seconds
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-arrow-right ml-2 h-4 w-4 transition-transform group-hover:translate-x-1"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5 12h14"
+                      />
+                      <path
+                        d="m12 5 7 7-7 7"
+                      />
+                    </svg>
+                  </span>
+                  <div
+                    class="absolute inset-0 bg-gradient-to-r from-primary via-primary to-primary opacity-0 group-hover:opacity-20 transition-opacity duration-300"
+                  />
+                </button>
+              </a>
+              <button
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-transparent shadow-xs hover:text-slate-900 dark:border-slate-500 dark:text-slate-100 dark:hover:bg-slate-600 dark:hover:text-white rounded-md has-[>svg]:px-4 h-12 px-8 text-base border-slate-600 text-white hover:bg-white/10 hover:border-primary/50 transition-all duration-300 hover:scale-105 backdrop-blur-sm"
+                data-slot="button"
+              >
+                Book a Demo
+              </button>
+            </div>
+            <ul
+              class="mt-8 flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-sm text-slate-400"
+              initial="[object Object]"
+              transition="[object Object]"
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
+              <li
+                class="flex items-center gap-2"
+                initial="[object Object]"
+                transition="[object Object]"
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
+                <div
+                  class="flex h-5 w-5 items-center justify-center rounded-full bg-primary/20"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-check h-3 w-3 text-primary"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20 6 9 17l-5-5"
+                    />
+                  </svg>
+                </div>
+                No credit card required
+              </li>
+              <li
+                class="flex items-center gap-2"
+                initial="[object Object]"
+                transition="[object Object]"
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
+                <div
+                  class="flex h-5 w-5 items-center justify-center rounded-full bg-primary/20"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-check h-3 w-3 text-primary"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20 6 9 17l-5-5"
+                    />
+                  </svg>
+                </div>
+                Insights in under 2 minutes
+              </li>
+              <li
+                class="flex items-center gap-2"
+                initial="[object Object]"
+                transition="[object Object]"
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
+                <div
+                  class="flex h-5 w-5 items-center justify-center rounded-full bg-primary/20"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-check h-3 w-3 text-primary"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20 6 9 17l-5-5"
+                    />
+                  </svg>
+                </div>
+                Free plan available
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="relative bg-gradient-to-b from-slate-50 to-white dark:from-slate-900/50 dark:to-slate-950 border-t border-slate-200 dark:border-slate-800"
+    >
+      <div
+        class="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-20 [mask-image:linear-gradient(180deg,white,transparent)]"
+      />
+      <div
+        class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16 relative"
+      >
+        <div
+          class="grid grid-cols-1 gap-12 lg:grid-cols-4"
+        >
+          <div
+            class="lg:col-span-1"
+          >
+            <h3
+              class="text-lg font-bold bg-gradient-to-r from-slate-900 to-slate-700 dark:from-slate-100 dark:to-slate-300 bg-clip-text text-transparent"
+            >
+              Numize
+            </h3>
+            <p
+              class="mt-4 text-sm leading-6 text-slate-600 dark:text-slate-400"
+            >
+              The ready-to-use business data platform. Connect tools, get metrics, take action.
+            </p>
+            <div
+              class="mt-6 flex gap-3"
+            >
+              <a
+                class="group relative flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 text-slate-600 transition-all duration-300 hover:bg-primary hover:text-white hover:scale-110 hover:shadow-lg hover:shadow-primary/30 dark:bg-slate-800 dark:text-slate-400 dark:hover:bg-primary dark:hover:text-white"
+                href="https://twitter.com/numize"
+              >
+                <span
+                  class="sr-only"
+                >
+                  Twitter
+                </span>
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-twitter h-5 w-5 transition-transform group-hover:scale-110"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+                  />
+                </svg>
+                <div
+                  class="absolute inset-0 rounded-lg bg-primary/20 opacity-0 blur-md group-hover:opacity-100 transition-opacity duration-300 -z-10"
+                />
+              </a>
+              <a
+                class="group relative flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 text-slate-600 transition-all duration-300 hover:bg-primary hover:text-white hover:scale-110 hover:shadow-lg hover:shadow-primary/30 dark:bg-slate-800 dark:text-slate-400 dark:hover:bg-primary dark:hover:text-white"
+                href="https://linkedin.com/company/numize"
+              >
+                <span
+                  class="sr-only"
+                >
+                  LinkedIn
+                </span>
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-linkedin h-5 w-5 transition-transform group-hover:scale-110"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                  />
+                  <rect
+                    height="12"
+                    width="4"
+                    x="2"
+                    y="9"
+                  />
+                  <circle
+                    cx="4"
+                    cy="4"
+                    r="2"
+                  />
+                </svg>
+                <div
+                  class="absolute inset-0 rounded-lg bg-primary/20 opacity-0 blur-md group-hover:opacity-100 transition-opacity duration-300 -z-10"
+                />
+              </a>
+              <a
+                class="group relative flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 text-slate-600 transition-all duration-300 hover:bg-primary hover:text-white hover:scale-110 hover:shadow-lg hover:shadow-primary/30 dark:bg-slate-800 dark:text-slate-400 dark:hover:bg-primary dark:hover:text-white"
+                href="https://github.com/numize"
+              >
+                <span
+                  class="sr-only"
+                >
+                  GitHub
+                </span>
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-github h-5 w-5 transition-transform group-hover:scale-110"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                  />
+                  <path
+                    d="M9 18c-4.51 2-5-2-7-2"
+                  />
+                </svg>
+                <div
+                  class="absolute inset-0 rounded-lg bg-primary/20 opacity-0 blur-md group-hover:opacity-100 transition-opacity duration-300 -z-10"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:col-span-3"
+          >
+            <div
+              class="relative"
+            >
+              <h4
+                class="text-sm font-semibold uppercase tracking-wider text-slate-900 dark:text-slate-100"
+              >
+                Product
+              </h4>
+              <ul
+                class="mt-6 space-y-4"
+              >
+                <li>
+                  <a
+                    class="group inline-flex items-center text-sm text-slate-600 transition-colors duration-300 hover:text-primary dark:text-slate-400 dark:hover:text-primary"
+                    href="/features"
+                  >
+                    <span
+                      class="relative"
+                    >
+                      Features
+                      <span
+                        class="absolute -bottom-1 left-0 h-px w-0 bg-primary transition-all duration-300 group-hover:w-full"
+                      />
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="group inline-flex items-center text-sm text-slate-600 transition-colors duration-300 hover:text-primary dark:text-slate-400 dark:hover:text-primary"
+                    href="/pricing"
+                  >
+                    <span
+                      class="relative"
+                    >
+                      Pricing
+                      <span
+                        class="absolute -bottom-1 left-0 h-px w-0 bg-primary transition-all duration-300 group-hover:w-full"
+                      />
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="group inline-flex items-center text-sm text-slate-600 transition-colors duration-300 hover:text-primary dark:text-slate-400 dark:hover:text-primary"
+                    href="/integrations"
+                  >
+                    <span
+                      class="relative"
+                    >
+                      Integrations
+                      <span
+                        class="absolute -bottom-1 left-0 h-px w-0 bg-primary transition-all duration-300 group-hover:w-full"
+                      />
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="group inline-flex items-center text-sm text-slate-600 transition-colors duration-300 hover:text-primary dark:text-slate-400 dark:hover:text-primary"
+                    href="/api"
+                  >
+                    <span
+                      class="relative"
+                    >
+                      API
+                      <span
+                        class="absolute -bottom-1 left-0 h-px w-0 bg-primary transition-all duration-300 group-hover:w-full"
+                      />
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="relative"
+            >
+              <div
+                class="absolute -left-4 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-slate-200 to-transparent dark:via-slate-700 hidden sm:block"
+              />
+              <h4
+                class="text-sm font-semibold uppercase tracking-wider text-slate-900 dark:text-slate-100"
+              >
+                Resources
+              </h4>
+              <ul
+                class="mt-6 space-y-4"
+              >
+                <li>
+                  <a
+                    class="group inline-flex items-center text-sm text-slate-600 transition-colors duration-300 hover:text-primary dark:text-slate-400 dark:hover:text-primary"
+                    href="/docs"
+                  >
+                    <span
+                      class="relative"
+                    >
+                      Documentation
+                      <span
+                        class="absolute -bottom-1 left-0 h-px w-0 bg-primary transition-all duration-300 group-hover:w-full"
+                      />
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="group inline-flex items-center text-sm text-slate-600 transition-colors duration-300 hover:text-primary dark:text-slate-400 dark:hover:text-primary"
+                    href="/help"
+                  >
+                    <span
+                      class="relative"
+                    >
+                      Help Center
+                      <span
+                        class="absolute -bottom-1 left-0 h-px w-0 bg-primary transition-all duration-300 group-hover:w-full"
+                      />
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="group inline-flex items-center text-sm text-slate-600 transition-colors duration-300 hover:text-primary dark:text-slate-400 dark:hover:text-primary"
+                    href="/blog"
+                  >
+                    <span
+                      class="relative"
+                    >
+                      Blog
+                      <span
+                        class="absolute -bottom-1 left-0 h-px w-0 bg-primary transition-all duration-300 group-hover:w-full"
+                      />
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="group inline-flex items-center text-sm text-slate-600 transition-colors duration-300 hover:text-primary dark:text-slate-400 dark:hover:text-primary"
+                    href="/cases"
+                  >
+                    <span
+                      class="relative"
+                    >
+                      Case Studies
+                      <span
+                        class="absolute -bottom-1 left-0 h-px w-0 bg-primary transition-all duration-300 group-hover:w-full"
+                      />
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="relative"
+            >
+              <div
+                class="absolute -left-4 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-slate-200 to-transparent dark:via-slate-700 hidden sm:block"
+              />
+              <h4
+                class="text-sm font-semibold uppercase tracking-wider text-slate-900 dark:text-slate-100"
+              >
+                Company
+              </h4>
+              <ul
+                class="mt-6 space-y-4"
+              >
+                <li>
+                  <a
+                    class="group inline-flex items-center text-sm text-slate-600 transition-colors duration-300 hover:text-primary dark:text-slate-400 dark:hover:text-primary"
+                    href="/about"
+                  >
+                    <span
+                      class="relative"
+                    >
+                      About
+                      <span
+                        class="absolute -bottom-1 left-0 h-px w-0 bg-primary transition-all duration-300 group-hover:w-full"
+                      />
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="group inline-flex items-center text-sm text-slate-600 transition-colors duration-300 hover:text-primary dark:text-slate-400 dark:hover:text-primary"
+                    href="/careers"
+                  >
+                    <span
+                      class="relative"
+                    >
+                      Careers
+                      <span
+                        class="absolute -bottom-1 left-0 h-px w-0 bg-primary transition-all duration-300 group-hover:w-full"
+                      />
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="group inline-flex items-center text-sm text-slate-600 transition-colors duration-300 hover:text-primary dark:text-slate-400 dark:hover:text-primary"
+                    href="/contact"
+                  >
+                    <span
+                      class="relative"
+                    >
+                      Contact
+                      <span
+                        class="absolute -bottom-1 left-0 h-px w-0 bg-primary transition-all duration-300 group-hover:w-full"
+                      />
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="group inline-flex items-center text-sm text-slate-600 transition-colors duration-300 hover:text-primary dark:text-slate-400 dark:hover:text-primary"
+                    href="/privacy"
+                  >
+                    <span
+                      class="relative"
+                    >
+                      Privacy
+                      <span
+                        class="absolute -bottom-1 left-0 h-px w-0 bg-primary transition-all duration-300 group-hover:w-full"
+                      />
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mt-12 pt-8 border-t border-gradient-to-r from-transparent via-slate-200 to-transparent dark:via-slate-700"
+        >
+          <div
+            class="relative h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent dark:via-slate-700"
+          />
+          <p
+            class="mt-8 text-center text-sm text-slate-600 dark:text-slate-400"
+          >
+            © 
+            2025
+             
+            <span
+              class="font-semibold text-slate-900 dark:text-slate-100"
+            >
+              Numize
+            </span>
+            . All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

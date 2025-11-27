@@ -1,0 +1,174 @@
+{
+  "common": {
+    "changeLanguage": "Changer la langue",
+    "labelExample": "example de texte",
+    "labelExampleFormatted": "exemple de texte <underline>formaté</underline>",
+    "generalError": "Une erreur s'est produite",
+    "styledButton": "Exemple de bouton @emotion/styled"
+  },
+  "homepage": {
+    "meta": {
+      "title": "Numize - IA + dbt → Sheets, pas de tableaux de bord",
+      "description": "Transformez vos questions business en tableaux vivants et fiables dans Google Sheets, ancrés dans votre entrepôt de données. Basé sur la couche sémantique dbt pour une précision maximale. Pas de tableaux de bord. Pas de graphiques. Juste les données là où le travail se fait."
+    },
+    "hero": {
+      "eyebrow": "IA + dbt → Sheets, pas de tableaux de bord",
+      "headline": "Arrêtez d'exporter des données. Commencez à diffuser l'intelligence dans Sheets.",
+      "subheadline": "Numize transforme votre entrepôt de données et vos connaissances dbt en feuilles de calcul vivantes et fiables. Posez vos questions en français, synchronisez vers Sheets, travaillez sur les données de l'entrepôt — sans tableaux de bord.",
+      "primaryCta": "Commencer",
+      "secondaryCta": "Voir la démo"
+    },
+    "logoStrip": {
+      "title": "Approuvé par des entreprises innovantes dans le monde entier"
+    },
+    "features": {
+      "naturalLanguage": {
+        "title": "Posez en français simple",
+        "description": "Transformez vos questions business en SQL automatiquement. Aucune connaissance technique requise — posez simplement vos questions.",
+        "highlight": "Langage naturel"
+      },
+      "aiInsights": {
+        "title": "Ancrage sémantique dbt",
+        "description": "Lorsque dbt est configuré, Numize utilise des métriques vérifiées et la logique métier pour une précision et confiance maximales.",
+        "highlight": "dbt vérifié"
+      },
+      "dashboards": {
+        "title": "Synchronisation Sheets en direct",
+        "description": "Poussez les données fiables de l'entrepôt directement dans Google Sheets, là où votre travail business se passe déjà.",
+        "highlight": "Sync temps réel"
+      },
+      "reports": {
+        "title": "Actualisation manuelle et planifiée",
+        "description": "Gardez vos feuilles de calcul à jour avec une actualisation manuelle en un clic ou une synchronisation automatique planifiée.",
+        "highlight": "Toujours actuel"
+      },
+      "realTime": {
+        "title": "Alimenté par l'entrepôt",
+        "description": "Connectez-vous à Snowflake, BigQuery, Postgres ou Redshift. Interrogez vos données de production directement.",
+        "highlight": "Entreprise ready"
+      },
+      "collaboration": {
+        "title": "Historique et réutilisation de requêtes",
+        "description": "Sauvegardez et réutilisez les questions passées. Partagez les connaissances sémantiques au sein de votre équipe data.",
+        "highlight": "Bibliothèque d'équipe"
+      }
+    },
+    "deepDive": {
+      "eyebrow": "Comment ça marche",
+      "headline": "De la question à la feuille de calcul en direct en moins de 3 minutes",
+      "description": "Numize supprime entièrement le flux d'exportation. Connectez votre entrepôt, importez optionnellement dbt pour la précision sémantique, puis posez des questions et synchronisez les résultats directement vers Sheets. Votre équipe opère sur des données vivantes et fiables.",
+      "features": {
+        "connect": "Connectez l'entrepôt (Snowflake, BigQuery, Postgres)",
+        "ask": "Posez des questions en langage naturel",
+        "visualize": "Prévisualisez SQL & résultats avant sync",
+        "share": "Synchronisez vers Google Sheets en un clic",
+        "export": "Actualisez les données manuellement ou planifiez"
+      }
+    },
+    "testimonials": {
+      "sarah": {
+        "quote": "Nous avons complètement arrêté d'exporter des CSV. Numize synchronise nos données d'entrepôt directement dans nos feuilles de calcul de planification avec des métriques vérifiées dbt. La Finance fait enfin confiance aux chiffres.",
+        "author": "Sarah Chen",
+        "role": "CFO",
+        "company": "TechFlow"
+      },
+      "marcus": {
+        "quote": "Nos analystes passaient des heures à écrire du SQL et copier des données. Maintenant ils posent des questions en français et les résultats apparaissent dans Sheets. C'est comme avoir des super-pouvoirs de couche sémantique.",
+        "author": "Marcus Rodriguez",
+        "role": "Ingénieur Analytics",
+        "company": "Acme Corp"
+      },
+      "emily": {
+        "quote": "Fini les silos de tableaux de bord. Notre équipe RevOps opère entièrement dans Google Sheets maintenant, alimentée par les données d'entrepôt en direct. Numize l'a rendu possible.",
+        "author": "Emily Thompson",
+        "role": "VP Revenue Operations",
+        "company": "DataViz Inc"
+      }
+    },
+    "pricing": {
+      "eyebrow": "Tarification simple et transparente",
+      "headline": "Commencez gratuitement, évoluez selon vos besoins",
+      "description": "Choisissez le plan qui convient aux besoins de votre équipe. Tous les plans incluent les fonctionnalités d'analytique de base.",
+      "cta": "Voir la tarification complète",
+      "plans": {
+        "starter": {
+          "name": "Débutant",
+          "price": "Gratuit",
+          "description": "Parfait pour les individus et petites équipes",
+          "features": {
+            "dataSources": "5 sources de données",
+            "dashboards": "Tableaux de bord basiques",
+            "support": "Support par email"
+          }
+        },
+        "professional": {
+          "name": "Professionnel",
+          "price": "29 €",
+          "billing": "par utilisateur/mois",
+          "description": "Pour les équipes en croissance qui ont besoin de plus de puissance",
+          "features": {
+            "dataSources": "Sources de données illimitées",
+            "analytics": "Analytique avancée",
+            "support": "Support prioritaire"
+          }
+        },
+        "enterprise": {
+          "name": "Entreprise",
+          "price": "Personnalisé",
+          "description": "Pour les grandes organisations avec des besoins spécifiques",
+          "features": {
+            "integrations": "Intégrations personnalisées",
+            "support": "Support dédié",
+            "sla": "Garanties SLA"
+          }
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Prêt à commencer ?",
+      "headline": "Transformez vos questions business en feuilles de calcul vivantes",
+      "description": "Rejoignez les équipes data qui ont remplacé les tableaux de bord par des Sheets fiables, alimentés par l'entrepôt.",
+      "primaryCta": "Commencer",
+      "secondaryCta": "Réserver une démo",
+      "features": {
+        "noCredit": "Aucune carte de crédit requise",
+        "trial": "< 3 min à la première table synchronisée",
+        "cancel": "Gratuit pour les équipes analytics"
+      }
+    },
+    "footer": {
+      "company": {
+        "name": "Numize",
+        "description": "IA + dbt → Sheets, pas de tableaux de bord. Transformez les données d'entrepôt en feuilles de calcul vivantes et fiables."
+      },
+      "links": {
+        "product": {
+          "title": "Produit",
+          "features": "Fonctionnalités",
+          "pricing": "Tarification",
+          "integrations": "Intégrations",
+          "api": "API"
+        },
+        "resources": {
+          "title": "Ressources",
+          "documentation": "Documentation",
+          "helpCenter": "Centre d'aide",
+          "blog": "Blog",
+          "caseStudies": "Études de cas"
+        },
+        "company": {
+          "title": "Entreprise",
+          "about": "À propos",
+          "careers": "Carrières",
+          "contact": "Contact",
+          "privacy": "Confidentialité"
+        }
+      },
+      "social": {
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+      }
+    }
+  }
+}
